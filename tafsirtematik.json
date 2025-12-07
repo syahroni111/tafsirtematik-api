@@ -3,17 +3,52 @@
     {
       "id": 1,
       "name": "Rezeki",
-      "description": "Ayat-ayat yang membahas tentang rezeki, keberkahan, dan kepercayaan kepada Allah sebagai pemberi rezeki."
+      "description": "Ayat-ayat yang membahas tentang rezeki, keberkahan, dan kepercayaan kepada Allah sebagai Pemberi Rezeki. Kajian ini mencakup konsep rezeki yang luas (materiil dan non-materiil) serta adab bersyukur."
     },
     {
       "id": 2,
       "name": "Sabar",
-      "description": "Ayat-ayat yang mengajarkan kesabaran dalam menghadapi ujian dan kesulitan hidup."
+      "description": "Ayat-ayat yang mengajarkan konsep kesabaran (shabr) dalam menghadapi ujian, ketaatan kepada Allah, dan menjauhi maksiat. Sabar adalah pilar utama bagi keberhasilan seorang mukmin."
     },
     {
       "id": 3,
       "name": "Akhlak",
-      "description": "Ayat-ayat yang menuntun manusia untuk berakhlak mulia dan menjauhi perbuatan tercela."
+      "description": "Ayat-ayat yang menuntun manusia untuk berakhlak mulia (karimah) dan menjauhi perbuatan tercela. Fokus pada etika sosial, kejujuran, dan perlakuan baik terhadap sesama."
+    },
+    {
+      "id": 4,
+      "name": "Ibadah",
+      "description": "Ayat-ayat yang menjelaskan prinsip-prinsip dasar ibadah, terutama shalat, puasa, zakat, dan haji. Membahas esensi ketaatan dan hubungan vertikal (hablun minallah)."
+    },
+    {
+      "id": 5,
+      "name": "Ilmu Pengetahuan",
+      "description": "Ayat-ayat yang menekankan pentingnya menuntut ilmu, berpikir, meneliti alam semesta (ayat-ayat kauniyah), serta peran akal dan wahyu dalam mencapai kebenaran."
+    },
+    {
+      "id": 6,
+      "name": "Keadilan Sosial",
+      "description": "Ayat-ayat yang memerintahkan penegakan keadilan (al-adl) dalam segala aspek kehidupan, termasuk hukum, ekonomi, dan perlakuan terhadap yang lemah. Melarang kezhaliman."
+    },
+    {
+      "id": 7,
+      "name": "Hubungan Keluarga",
+      "description": "Ayat-ayat yang mengatur etika dan hak-hak dalam rumah tangga, termasuk perlakuan terhadap orang tua, pasangan, dan anak-anak. Fokus pada mawaddah wa rahmah (cinta dan kasih sayang)."
+    },
+    {
+      "id": 8,
+      "name": "Kematian dan Akhirat",
+      "description": "Ayat-ayat yang membahas kepastian kematian (al-maut), kehidupan setelah mati, hari kiamat, surga, dan neraka. Tema ini mendorong kesadaran akan tujuan hidup sejati."
+    },
+    {
+      "id": 9,
+      "name": "Tawakal",
+      "description": "Ayat-ayat yang mengajarkan konsep berserah diri sepenuhnya kepada Allah setelah melakukan usaha maksimal. Tawakal adalah puncak kepercayaan terhadap Qada dan Qadar."
+    },
+    {
+      "id": 10,
+      "name": "Ujian dan Cobaan",
+      "description": "Ayat-ayat yang menjelaskan bahwa cobaan (bala') adalah keniscayaan dalam kehidupan mukmin. Tujuannya adalah untuk menguji keimanan, meningkatkan derajat, dan membersihkan dosa."
     }
   ],
   "verses": [
@@ -23,9 +58,9 @@
       "surah": "Al-Baqarah",
       "ayah": 172,
       "juz": 2,
-      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَاشْكُرُوا لِلَّهِ",
-      "translation": "Wahai orang-orang yang beriman! Makanlah dari rezeki yang baik yang Kami berikan kepadamu, dan bersyukurlah kepada Allah.",
-      "tafsir": "Allah memerintahkan orang beriman agar hanya memakan yang halal dan baik serta bersyukur atas karunia rezeki tersebut."
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَاشْكُرُوا لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ",
+      "translation": "Wahai orang-orang yang beriman! Makanlah dari rezeki yang baik-baik yang telah Kami berikan kepada kalian, dan bersyukurlah kepada Allah, jika kamu hanya menyembah kepada-Nya.",
+      "tafsir": "Allah memerintahkan orang beriman untuk mengonsumsi makanan yang halal dan baik (thayyib). Kata 'thayyib' mencakup dua aspek: halal dari segi hukum syariat dan baik dari segi kualitas serta cara memperolehnya. Perintah ini diikuti dengan kewajiban bersyukur, yang merupakan bentuk pengakuan bahwa semua rezeki berasal dari Allah. Bersyukur bukan hanya ucapan lisan, tetapi juga menggunakan rezeki tersebut sesuai kehendak-Nya. Ayat ini mengajarkan bahwa ibadah yang sejati harus dibarengi dengan sikap syukur atas nikmat Allah, karena keimanan dan kesyukuran adalah dua hal yang saling melengkapi dalam kehidupan seorang mukmin."
     },
     {
       "id": 2,
@@ -33,29 +68,489 @@
       "surah": "Hud",
       "ayah": 6,
       "juz": 11,
-      "arabic": "وَمَا مِن دَابَّةٍ فِي الْأَرْضِ إِلَّا عَلَى اللَّهِ رِزْقُهَا",
-      "translation": "Dan tidak ada satu makhluk melata pun di bumi melainkan Allah-lah yang memberi rezekinya.",
-      "tafsir": "Setiap makhluk sudah dijamin rezekinya oleh Allah sesuai dengan ketetapan-Nya."
+      "arabic": "وَمَا مِن دَابَّةٍ فِي الْأَرْضِ إِلَّا عَلَى اللَّهِ رِزْقُهَا وَيَعْلَمُ مُسْتَقَرَّهَا وَمُسْتَوْدَعَهَا ۚ كُلٌّ فِي كِتَابٍ مُّبِينٍ",
+      "translation": "Dan tidak ada satu pun makhluk bergerak (bernyawa) di bumi melainkan semuanya dijamin Allah rezekinya. Dia mengetahui tempat kediamannya dan tempat penyimpanannya. Semua (tertulis) dalam Kitab yang nyata (Lauh Mahfuzh).",
+      "tafsir": "Ayat ini memberikan jaminan universal bahwa Allah bertanggung jawab atas rezeki setiap makhluk hidup di bumi, dari manusia hingga hewan terkecil. Konsep ini mengajarkan ketenangan hati (tawakkal) bahwa rezeki sudah dijamin oleh Allah. Frasa 'mustaqarra' (tempat tinggal) dan 'mustauda'a' (tempat penyimpanan/asal dan tujuan) menunjukkan bahwa Allah mengetahui seluruh perjalanan hidup makhluk-Nya. Semua ini tercatat dalam 'Kitabun Mubin' (Lauh Mahfuzh), menandakan bahwa rezeki bukan kebetulan tetapi bagian dari rencana Ilahi yang terukur. Bagi mahasiswa, ayat ini mengajarkan untuk berusaha maksimal sambil bertawakal, karena hasil akhir sudah ada dalam ketentuan Allah."
     },
     {
       "id": 3,
+      "themeId": 1,
+      "surah": "Adh-Dhariyat",
+      "ayah": 58,
+      "juz": 27,
+      "arabic": "إِنَّ اللَّهَ هُوَ الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ",
+      "translation": "Sesungguhnya Allah Dialah Pemberi Rezeki, Yang Mempunyai Kekuatan, lagi Sangat Kokoh.",
+      "tafsir": "Ayat ini menegaskan bahwa Allah adalah Ar-Razzaq (Pemberi Rezeki yang Maha Sempurna), yang memberikan rezeki tanpa membutuhkan bantuan siapa pun. Sifat 'Dzul Quwwatil Matin' (Maha Kuat lagi Kokoh) menunjukkan bahwa kekuatan Allah tidak terbatas dan tidak akan pernah habis, sehingga kemampuan-Nya memberi rezeki juga tidak terbatas. Ayat ini menghibur orang-orang yang merasa khawatir tentang masa depan ekonomi mereka, karena Pemberi Rezeki adalah Dzat yang Maha Kuat. Dalam konteks mahasiswa, pemahaman ini membangun mental yang tangguh: fokus pada proses pembelajaran dan pengembangan diri, bukan hanya mengejar materi, karena rezeki sudah ada jaminannya dari Sang Maha Pemberi."
+    },
+    {
+      "id": 4,
+      "themeId": 1,
+      "surah": "At-Talaq",
+      "ayah": 3,
+      "juz": 28,
+      "arabic": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ ۚ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ ۚ قَدْ جَعَلَ اللَّهُ لِكُلِّ شَيْءٍ قَدْرًا",
+      "translation": "Dan Dia memberinya rezeki dari arah yang tidak disangka-sangka. Barangsiapa bertawakal kepada Allah, niscaya Allah akan mencukupkan (keperluan)nya. Sesungguhnya Allah melaksanakan urusan-Nya. Sungguh, Allah telah mengadakan ketentuan bagi setiap sesuatu.",
+      "tafsir": "Ayat ini menjelaskan fenomena rezeki yang datang dari arah yang tidak terduga, sebuah konsep yang sering dialami oleh orang-orang yang bertawakal. Tawakal bukan berarti pasrah tanpa usaha, melainkan berusaha maksimal sambil menyerahkan hasil kepada Allah. Ketika seseorang bertawakal dengan benar, Allah akan mencukupkan kebutuhannya (hasbuhu), bahkan melampaui ekspektasi. Frasa 'balighun amrihi' (Allah pasti melaksanakan urusan-Nya) menegaskan bahwa rencana Allah pasti terwujud tanpa ada yang dapat menghalangi. 'Qadran' (ketentuan/ukuran) mengajarkan bahwa setiap rezeki memiliki waktu, cara, dan ukurannya sendiri sesuai hikmah Allah. Mahasiswa perlu memahami bahwa kesuksesan tidak selalu datang dari jalan yang direncanakan, tetapi bisa dari peluang yang tidak terduga."
+    },
+    {
+      "id": 5,
+      "themeId": 1,
+      "surah": "An-Nisa",
+      "ayah": 32,
+      "juz": 5,
+      "arabic": "وَلَا تَتَمَنَّوْا مَا فَضَّلَ اللَّهُ بِهِ بَعْضَكُمْ عَلَىٰ بَعْضٍ ۚ لِّلرِّجَالِ نَصِيبٌ مِّمَّا اكْتَسَبُوا ۖ وَلِلنِّسَاءِ نَصِيبٌ مِّمَّا اكْتَسَبْنَ ۚ وَاسْأَلُوا اللَّهَ مِن فَضْلِهِ ۗ إِنَّ اللَّهَ كَانَ بِكُلِّ شَيْءٍ عَلِيمًا",
+      "translation": "Dan janganlah kamu iri hati terhadap apa yang dikaruniakan Allah kepada sebagian kamu lebih banyak dari sebagian yang lain. Karena bagi laki-laki ada bagian dari apa yang mereka usahakan, dan bagi perempuan pun ada bagian dari apa yang mereka usahakan. Dan mohonlah kepada Allah sebagian dari karunia-Nya. Sungguh, Allah Maha Mengetahui segala sesuatu.",
+      "tafsir": "Ayat ini melarang manusia untuk memiliki sifat iri dan dengki terhadap kelebihan yang Allah berikan kepada orang lain, baik dalam hal rezeki, kedudukan, ilmu, maupun kemampuan. Setiap manusia diciptakan dengan potensi, peran, dan kesempatan yang berbeda-beda sesuai dengan hikmah Allah. Islam menegaskan bahwa laki-laki dan perempuan sama-sama memiliki hak untuk mendapatkan hasil dari usaha mereka, sesuai dengan jerih payah masing-masing, tanpa adanya diskriminasi dalam pahala dan kesempatan beramal. Ayat ini juga mengajarkan bahwa jalan yang benar untuk memperoleh kelebihan bukanlah dengan iri kepada orang lain, tetapi dengan berdoa dan meminta langsung kepada Allah agar diberi tambahan karunia-Nya. Penutup ayat ini menegaskan bahwa Allah Maha Mengetahui segala sesuatu, termasuk niat, usaha, dan kebutuhan setiap hamba-Nya. Bagi mahasiswa dan pelajar, ayat ini mengajarkan agar tidak minder atau iri terhadap prestasi orang lain, tetapi fokus meningkatkan diri melalui usaha, doa, dan tawakal kepada Allah."
+    },
+    {
+      "id": 6,
       "themeId": 2,
       "surah": "Al-Baqarah",
       "ayah": 153,
       "juz": 2,
-      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
-      "translation": "Wahai orang-orang yang beriman! Mohonlah pertolongan dengan sabar dan shalat.",
-      "tafsir": "Kesabaran dan shalat menjadi dua kekuatan utama dalam menghadapi cobaan hidup."
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+      "translation": "Wahai orang-orang yang beriman! Mohonlah pertolongan (kepada Allah) dengan sabar dan shalat. Sesungguhnya Allah beserta orang-orang yang sabar.",
+      "tafsir": "Ayat ini memberikan formula penting untuk menghadapi kesulitan hidup: sabar dan shalat. Sabar dalam ayat ini mencakup tiga jenis: sabar dalam ketaatan (istiqamah beribadah), sabar dalam menghadapi musibah (tidak mengeluh), dan sabar menahan diri dari maksiat. Shalat berfungsi sebagai sarana untuk menenangkan jiwa dan mendekatkan diri kepada Allah. Kombinasi keduanya menciptakan kekuatan spiritual yang luar biasa. Janji Allah 'innallaha ma'ash shabirin' (Allah bersama orang yang sabar) sangat mulia, karena kebersamaan Allah berarti pertolongan, perlindungan, dan bimbingan-Nya. Dalam konteks akademik, mahasiswa menghadapi berbagai ujian seperti ujian kuliah, tekanan tugas, dan tantangan masa depan. Sabar dan shalat menjadi fondasi mental yang kokoh untuk menghadapi semua itu."
     },
     {
-      "id": 4,
+      "id": 7,
+      "themeId": 2,
+      "surah": "Ali Imran",
+      "ayah": 200,
+      "juz": 4,
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اصْبِرُوا وَصَابِرُوا وَرَابِطُوا وَاتَّقُوا اللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "translation": "Wahai orang-orang yang beriman! Bersabarlah kamu dan kuatkanlah kesabaranmu, tetaplah bersiap siaga (di perbatasan negerimu) dan bertakwalah kepada Allah agar kamu beruntung.",
+      "tafsir": "Ayat penutup Surah Ali Imran ini memberikan empat perintah bertingkat untuk meraih kesuksesan (falah). Pertama, 'ishbiru' (bersabarlah) berarti memiliki kesabaran individu dalam menghadapi ujian pribadi. Kedua, 'shabiru' (kuatkanlah kesabaran) artinya berlomba dan saling menguatkan dalam kesabaran bersama komunitas. Ketiga, 'rabitu' (bersiap siaga) secara kontekstual berarti menjaga perbatasan, tetapi makna lebih luas adalah kesiapsiagaan menghadapi tantangan dan ancaman. Keempat, 'ittaqullah' (bertakwalah) sebagai puncaknya, yaitu menjaga diri dari murka Allah dengan menjalankan perintah-Nya. Kombinasi keempat hal ini menjamin keberuntungan dunia dan akhirat. Bagi mahasiswa, ini mengajarkan pentingnya ketekunan pribadi, dukungan sosial dari teman sejawat, kesiapan menghadapi kompetisi, dan tetap menjaga nilai-nilai spiritual."
+    },
+    {
+      "id": 8,
+      "themeId": 2,
+      "surah": "Az-Zumar",
+      "ayah": 10,
+      "juz": 23,
+      "arabic": "قُلْ يَا عِبَادِ الَّذِينَ آمَنُوا اتَّقُوا رَبَّكُمْ ۚ لِلَّذِينَ أَحْسَنُوا فِي هَٰذِهِ الدُّنْيَا حَسَنَةٌ ۗ وَأَرْضُ اللَّهِ وَاسِعَةٌ ۗ إِنَّمَا يُوَفَّى الصَّابِرُونَ أَجْرَهُم بِغَيْرِ حِسَابٍ",
+      "translation": "Katakanlah (Muhammad), 'Wahai hamba-hamba-Ku yang beriman! Bertakwalah kepada Tuhanmu.' Orang-orang yang berbuat baik di dunia ini memperoleh kebaikan. Dan bumi Allah itu luas. Sungguh, orang-orang yang sabarlah yang dicukupkan pahala mereka tanpa batas.",
+      "tafsir": "Ayat ini menjanjikan pahala yang luar biasa bagi orang yang sabar: pahala tanpa batas (bi ghairi hisab). Berbeda dengan amal lainnya yang pahalanya terukur (sepuluh kali lipat hingga tujuh ratus kali lipat), kesabaran mendapat pahala yang tidak terhitung. Ini menunjukkan betapa mulianya sabar di sisi Allah. Frasa 'ardhullahi wasi'ah' (bumi Allah luas) mengajarkan bahwa jika kita mengalami kesulitan di satu tempat, Allah menyediakan peluang di tempat lain. Jangan menyerah pada satu kegagalan, karena pintu rezeki dan kesuksesan Allah sangat luas. Bagi mahasiswa yang mungkin gagal di satu kesempatan (ujian, beasiswa, pekerjaan), ayat ini memberikan harapan bahwa masih banyak peluang lain yang Allah sediakan, asalkan tetap sabar dan terus berusaha."
+    },
+    {
+      "id": 9,
+      "themeId": 2,
+      "surah": "Al-Baqarah",
+      "ayah": 155156,
+      "juz": 2,
+      "arabic": "وَلَنَبْلُوَنَّكُم بِشَيْءٍ مِّنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنفُسِ وَالثَّمَرَاتِ ۗ وَبَشِّرِ الصَّابِرِينَ ۝ الَّذِينَ إِذَا أَصَابَتْهُم مُّصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+      "translation": "Dan Kami pasti akan menguji kamu dengan sedikit ketakutan, kelaparan, kekurangan harta, jiwa, dan buah-buahan. Dan sampaikanlah kabar gembira kepada orang-orang yang sabar, (yaitu) orang-orang yang apabila ditimpa musibah, mereka berkata, 'Inna lillahi wa inna ilaihi raji'un (Sesungguhnya kami milik Allah dan kepada-Nya kami kembali).'",
+      "tafsir": "Ayat ini menjelaskan sunnatullah bahwa ujian adalah bagian dari kehidupan. Allah secara eksplisit menyatakan akan menguji manusia dengan lima jenis ujian: ketakutan (ancaman keamanan), kelaparan (kesulitan ekonomi), kekurangan harta (kerugian finansial), kekurangan jiwa (kematian orang terkasih), dan kekurangan hasil (gagal panen/usaha). Kata 'lanabluwannakum' (pasti akan menguji) menunjukkan kepastian ujian akan datang. Namun Allah memberi kabar gembira kepada orang sabar yang mengucap 'Inna lillahi wa inna ilaihi raji'un' saat musibah. Kalimat ini mengandung dua pengakuan: pertama, kita dan semua yang kita miliki adalah milik Allah (bukan milik kita mutlak); kedua, kita pasti kembali kepada-Nya (memotivasi untuk berbuat baik). Sikap ini membantu menerima ujian dengan ikhlas karena memahami bahwa semua adalah kepunyaan dan ketentuan Allah."
+    },
+    {
+      "id": 10,
+      "themeId": 2,
+      "surah": "Al-Insyirah",
+      "ayah": 56,
+      "juz": 30,
+      "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا ۝ إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "translation": "Maka sesungguhnya bersama kesulitan ada kemudahan. Sesungguhnya bersama kesulitan ada kemudahan.",
+      "tafsir": "Ayat yang diulang dua kali ini memberikan jaminan pasti dari Allah bahwa setiap kesulitan pasti disertai kemudahan. Pengulangan berfungsi untuk penekanan (ta'kid) agar kaum muslimin yakin penuh pada janji ini. Yang menarik, kata 'al-'usri' (kesulitan) menggunakan alif lam yang menunjukkan definit (tertentu), sementara 'yusran' (kemudahan) tanpa alif lam yang menunjukkan indefinit (tidak tertentu/umum). Ini berarti satu kesulitan akan disertai banyak kemudahan. Para ulama menyimpulkan: kesulitan tidak akan pernah mengalahkan dua kemudahan. Dalam konteks mahasiswa yang sedang mengalami masa sulit (akademik, finansial, atau personal), ayat ini sangat menenangkan. Kesulitan yang sedang dialami bukanlah akhir dari segalanya, melainkan fase yang pasti akan diikuti oleh kemudahan. Kunci adalah tetap sabar dan tidak putus asa."
+    },
+    {
+      "id": 11,
+      "themeId": 3,
+      "surah": "Al-Hujurat",
+      "ayah": 13,
+      "juz": 26,
+      "arabic": "يَا أَيُّهَا النَّاسُ إِنَّا خَلَقْنَاكُم مِّن ذَكَرٍ وَأُنثَىٰ وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا ۚ إِنَّ أَكْرَمَكُمْ عِندَ اللَّهِ أَتْقَاكُمْ ۚ إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ",
+      "translation": "Wahai manusia! Sungguh, Kami telah menciptakan kamu dari seorang laki-laki dan seorang perempuan, kemudian Kami jadikan kamu berbangsa-bangsa dan bersuku-suku agar kamu saling mengenal. Sesungguhnya yang paling mulia di antara kamu di sisi Allah ialah orang yang paling bertakwa. Sungguh, Allah Maha Mengetahui, Mahateliti.",
+      "tafsir": "Ayat ini menegaskan prinsip kesetaraan manusia di hadapan Allah. Semua manusia berasal dari satu asal yang sama (Adam dan Hawa), sehingga tidak ada superioritas berdasarkan ras, suku, atau kebangsaan. Perbedaan suku dan bangsa diciptakan untuk 'lita'arafu' (saling mengenal), bukan untuk saling merendahkan atau bermusuhan. Perbedaan adalah rahmat untuk saling melengkapi dan belajar. Satu-satunya kriteria kemuliaan di sisi Allah adalah takwa (ketakwaan), yaitu kesadaran spiritual yang mendorong seseorang untuk taat kepada Allah dan berbuat baik. Takwa bersifat internal dan tidak bisa dinilai dari penampilan luar, sehingga hanya Allah yang tahu ('alimun khabirun'). Bagi mahasiswa di lingkungan kampus yang multikultural, ayat ini mengajarkan untuk menghargai keberagaman, tidak diskriminatif, dan fokus pada pengembangan kualitas spiritual dan moral pribadi."
+    },
+    {
+      "id": 12,
+      "themeId": 3,
+      "surah": "Al-Isra",
+      "ayah": 23,
+      "juz": 15,
+      "arabic": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ الْكِبَرَ أَحَدُهُمَا أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًا كَرِيمًا",
+      "translation": "Dan Tuhanmu telah memerintahkan agar kamu jangan menyembah selain Dia dan hendaklah berbuat baik kepada ibu bapak. Jika salah seorang di antara keduanya atau kedua-duanya sampai berusia lanjut dalam pemeliharaanmu, maka sekali-kali janganlah engkau mengatakan kepada keduanya perkataan 'ah' dan janganlah engkau membentak keduanya, dan ucapkanlah kepada keduanya perkataan yang mulia.",
+      "tafsir": "Ayat ini menempatkan perintah berbakti kepada orang tua segera setelah perintah tauhid (menyembah Allah), menunjukkan betapa pentingnya birrul walidain (berbakti kepada kedua orang tua). Kata 'ihsanan' (berbuat baik) bersifat umum dan mencakup semua bentuk kebaikan: finansial, emosional, dan spiritual. Larangan mengatakan 'uff' (kata yang menunjukkan ketidaksabaran atau kesal) adalah bentuk minimal dari pelanggaran adab kepada orang tua - jika ini saja dilarang, apalagi bentuk-bentuk penganiayaan yang lebih besar. Perintah 'qaulan kariman' (perkataan yang mulia) mengajarkan bahwa komunikasi dengan orang tua harus penuh hormat, lembut, dan mengangkat martabat mereka. Bagi mahasiswa yang mungkin sudah mandiri atau jauh dari orang tua, ayat ini mengingatkan untuk tetap menjaga komunikasi yang baik, tidak mengabaikan mereka, dan memberikan perhatian terutama saat mereka menginjak usia lanjut."
+    },
+    {
+      "id": 13,
       "themeId": 3,
       "surah": "Al-Qalam",
       "ayah": 4,
       "juz": 29,
       "arabic": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ",
-      "translation": "Dan sesungguhnya engkau (Muhammad) benar-benar berbudi pekerti yang agung.",
-      "tafsir": "Ayat ini menegaskan kemuliaan akhlak Nabi Muhammad sebagai teladan bagi umat manusia."
+      "translation": "Dan sesungguhnya engkau (Muhammad) benar-benar berbudi pekerti yang luhur.",
+      "tafsir": "Ayat ini adalah pujian Allah langsung kepada Nabi Muhammad SAW tentang akhlaknya yang agung. Kata 'khuluqin 'azhim' (budi pekerti yang agung) menunjukkan kesempurnaan karakter Rasulullah dalam segala aspek: kejujuran, amanah, kepedulian sosial, kesabaran, kerendahan hati, dan semua sifat mulia lainnya. Aisyah RA pernah ditanya tentang akhlak Rasulullah, dan beliau menjawab: 'Akhlaknya adalah Al-Qur'an.' Ini berarti Rasulullah adalah implementasi hidup dari ajaran Al-Qur'an. Ayat ini juga menjadi landasan bahwa dakwah Islam tidak hanya tentang ritual ibadah, tetapi yang lebih penting adalah pembentukan karakter (character building). Bagi mahasiswa, Rasulullah adalah role model sempurna dalam berakhlak. Kesuksesan sejati bukan hanya IPK tinggi atau karir cemerlang, tetapi juga memiliki akhlak yang mulia yang membawa manfaat bagi masyarakat."
+    },
+    {
+      "id": 14,
+      "themeId": 3,
+      "surah": "Luqman",
+      "ayah": 18,
+      "juz": 21,
+      "arabic": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا ۖ إِنَّ اللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "translation": "Dan janganlah kamu memalingkan wajah dari manusia (karena sombong) dan janganlah berjalan di bumi dengan angkuh. Sungguh, Allah tidak menyukai orang-orang yang sombong dan membanggakan diri.",
+      "tafsir": "Ayat ini berisi nasihat Luqman Al-Hakim kepada anaknya tentang adab pergaulan sosial. 'Tusho'ir khaddaka' (memalingkan pipi) adalah kiasan untuk sikap sombong dan meremehkan orang lain. Islam mengajarkan kesederajatan manusia, sehingga tidak boleh ada sikap merendahkan berdasarkan status sosial, ekonomi, atau pendidikan. 'La tamshi fil ardhi marahan' (jangan berjalan dengan angkuh) melarang kesombongan yang terlihat dari cara berjalan atau berperilaku. Allah tidak menyukai dua sifat: 'mukhtal' (sombong dalam hati) dan 'fakhur' (membanggakan diri di hadapan orang lain). Bagi mahasiswa, ayat ini sangat relevan terutama bagi mereka yang memiliki prestasi akademik tinggi, berasal dari keluarga berada, atau memiliki kelebihan tertentu. Kerendahan hati (tawadhu') adalah ciri orang berilmu sejati, karena semakin banyak ilmu yang dimiliki, seharusnya semakin menyadari betapa luasnya ilmu Allah yang belum diketahui."
+    },
+    {
+      "id": 15,
+      "themeId": 3,
+      "surah": "Al-Ma'un",
+      "ayah": 17,
+      "juz": 30,
+      "arabic": "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ ۝ فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ ۝ وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
+      "translation": "Tahukah kamu (orang) yang mendustakan agama? Itulah orang yang menghardik anak yatim, dan tidak mendorong memberi makan orang miskin.",
+      "tafsir": "Surah Al-Ma'un ini memberikan definisi mengejutkan tentang orang yang mendustakan agama: bukan hanya orang yang tidak shalat atau tidak berpuasa, tetapi orang yang tidak peduli kepada anak yatim dan orang miskin. 'Yadu'ul yatim' (menghardik/mendorong anak yatim dengan kasar) menunjukkan sikap tidak berperikemanusiaan. 'Wala yahuddu 'ala tha'amil miskin' (tidak mendorong memberi makan orang miskin) menunjukkan ketiadaan kepedulian sosial. Ayat ini mengajarkan bahwa iman yang sejati harus terwujud dalam aksi nyata kepedulian sosial (social responsibility). Agama bukan hanya ritual vertikal kepada Allah, tetapi juga harus horizontal kepada sesama manusia. Bagi mahasiswa, ayat ini mengajarkan pentingnya empati dan kontribusi sosial. Ilmu yang dipelajari di kampus seharusnya membuat mereka lebih peka terhadap masalah sosial dan terdorong untuk berkontribusi membantu yang membutuhkan, bukan malah menjadi individualistis dan tidak peduli."
+    },
+    {
+      "id": 16,
+      "themeId": 4,
+      "surah": "Al-Baqarah",
+      "ayah": 43,
+      "juz": 1,
+      "arabic": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ",
+      "translation": "Dan laksanakanlah shalat, tunaikanlah zakat, dan rukuklah beserta orang yang rukuk.",
+      "tafsir": "Ayat ini memerintahkan tiga hal penting dalam Islam. Pertama, 'aqimus shalah' (laksanakanlah shalat) dengan kata 'iqamah' yang berarti menegakkan dengan sempurna, bukan sekadar melakukan. Ini mencakup menjaga waktu, syarat, rukun, dan khusyuk dalam shalat. Kedua, 'atuz zakah' (tunaikanlah zakat) yang merupakan kewajiban finansial untuk membersihkan harta dan membantu yang membutuhkan. Ketiga, 'warka'u ma'ar raki'in' (rukuklah bersama orang yang rukuk) yang memiliki dua makna: literal (shalat berjamaah) dan makna luas (bergabung dengan komunitas muslimin). Perintah shalat dan zakat sering disandingkan dalam Al-Qur'an (disebutkan 82 kali bersama-sama), menunjukkan kesatuan antara ibadah ritual dan tanggung jawab sosial. Bagi mahasiswa yang sibuk dengan kuliah, ayat ini mengingatkan bahwa kesibukan akademik tidak boleh menjadi alasan meninggalkan shalat dan kewajiban agama lainnya."
+    },
+    {
+      "id": 17,
+      "themeId": 4,
+      "surah": "Al-Ankabut",
+      "ayah": 45,
+      "juz": 21,
+      "arabic": "اتْلُ مَا أُوحِيَ إِلَيْكَ مِنَ الْكِتَابِ وَأَقِمِ الصَّلَاةَ ۖ إِنَّ الصَّلَاةَ تَنْهَىٰ عَنِ الْفَحْشَاءِ وَالْمُنكَرِ ۗ وَلَذِكْرُ اللَّهِ أَكْبَرُ ۗ وَاللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
+      "translation": "Bacalah Kitab (Al-Qur'an) yang telah diwahyukan kepadamu (Muhammad) dan laksanakanlah shalat. Sesungguhnya shalat itu mencegah dari (perbuatan) keji dan mungkar. Dan (ketahuilah) mengingat Allah (shalat) itu lebih besar (keutamaannya daripada ibadah yang lain). Allah mengetahui apa yang kamu kerjakan.",
+      "tafsir": "Ayat ini menjelaskan fungsi dan hikmah shalat yang sangat mendalam. Pertama, shalat yang dilakukan dengan benar akan 'tanha 'anil fahsya'i wal munkar' (mencegah dari perbuatan keji dan mungkar). Ini karena shalat yang khusyuk membangun kesadaran spiritual (muraqabatullah) bahwa Allah selalu mengawasi. Orang yang benar-benar merasakan kehadiran Allah dalam shalatnya akan malu berbuat maksiat. Kedua, 'ladzikrillahi akbar' (mengingat Allah adalah yang paling besar) menunjukkan bahwa esensi tertinggi dari shalat adalah dzikir dan komunikasi dengan Allah, bukan sekadar gerakan fisik. Frasa ini juga bisa berarti mengingat Allah (dalam shalat dan di luar shalat) lebih besar pahalanya daripada fakta bahwa shalat mencegah kemungkaran. Bagi mahasiswa di lingkungan kampus yang penuh godaan dan pergaulan bebas, shalat yang istiqamah menjadi benteng moral yang melindungi dari perbuatan menyimpang."
+    },
+    {
+      "id": 18,
+      "themeId": 4,
+      "surah": "Al-Baqarah",
+      "ayah": 183,
+      "juz": 2,
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+      "translation": "Wahai orang-orang yang beriman! Diwajibkan atas kamu berpuasa sebagaimana diwajibkan atas orang sebelum kamu agar kamu bertakwa.",
+      "tafsir": "Ayat ini memulai ayat-ayat tentang puasa Ramadhan. Kata 'kutiba' (diwajibkan) menunjukkan bahwa puasa adalah kewajiban, bukan anjuran. Penyebutan bahwa puasa juga diwajibkan kepada umat sebelum kita menunjukkan bahwa puasa adalah ibadah universal yang telah dikenal sejak lama, bukan hal baru dalam Islam. Tujuan puasa dijelaskan dengan 'la'allakum tattaqun' (agar kamu bertakwa). Puasa melatih pengendalian diri (self-control) terhadap hal-hal yang halal (makan, minum, hubungan suami-istri), sehingga akan lebih mudah menahan diri dari yang haram. Puasa juga melatih empati kepada yang lapar dan miskin. Secara spiritual, puasa membersihkan jiwa dan meningkatkan ketakwaan. Bagi mahasiswa, puasa mengajarkan disiplin, manajemen waktu, dan melatih mental untuk tetap produktif meskipun dalam kondisi fisik yang menantang - kualitas yang sangat berguna untuk kehidupan akademik dan profesional."
+    },
+    {
+      "id": 19,
+      "themeId": 4,
+      "surah": "Al-Hajj",
+      "ayah": 27,
+      "juz": 17,
+      "arabic": "وَأَذِّن فِي النَّاسِ بِالْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ ضَامِرٍ يَأْتِينَ مِن كُلِّ فَجٍّ عَمِيقٍ",
+      "translation": "Dan serulah manusia untuk mengerjakan haji, niscaya mereka akan datang kepadamu dengan berjalan kaki dan mengendarai unta yang kurus, mereka datang dari segala penjuru yang jauh.",
+      "tafsir": "Ayat ini berisi perintah Allah kepada Nabi Ibrahim AS untuk mengumumkan ibadah haji. Meskipun pada zaman Ibrahim tempat itu masih berupa gurun pasir tanpa penghuni, Allah menjanjikan bahwa manusia akan berdatangan. Kata 'rijalan' (berjalan kaki) dan 'dhami r' (unta kurus dari perjalanan jauh) menggambarkan kesungguhan dan pengorbanan yang dilakukan untuk menunaikan haji. Frasa 'min kulli fajjin 'amiq' (dari segala penjuru yang jauh) menunjukkan universalitas Islam yang akan menyebar ke seluruh dunia. Haji adalah ibadah yang unik karena merupakan pertemuan umat Islam sedunia dari berbagai ras, bangsa, bahasa, dan budaya dalam satu lokasi dan satu tujuan: beribadah kepada Allah. Bagi mahasiswa, ayat ini mengajarkan tentang keikhlasan dan pengorbanan dalam beribadah. Haji mengingatkan bahwa semua manusia sama di hadapan Allah, dan perjalanan haji adalah simulasi perjalanan menuju akhirat."
+    },
+    {
+      "id": 20,
+      "themeId": 4,
+      "surah": "Al-Baqarah",
+      "ayah": 277,
+      "juz": 3,
+      "arabic": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَأَقَامُوا الصَّلَاةَ وَآتَوُا الزَّكَاةَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "translation": "Sesungguhnya orang-orang yang beriman, mengerjakan kebajikan, melaksanakan shalat, dan menunaikan zakat, mereka mendapat pahala di sisi Tuhan mereka. Tidak ada rasa takut pada mereka dan mereka tidak bersedih hati.",
+      "tafsir": "Ayat ini menyebutkan empat karakter utama orang beruntung: iman, amal shaleh, shalat, dan zakat. Iman adalah fondasi akidah, amal shaleh adalah implementasi dalam kehidupan sehari-hari, shalat adalah ibadah ritual yang paling penting, dan zakat adalah tanggung jawab sosial. Janji Allah kepada mereka ada tiga: pertama, pahala di sisi-Nya ('ajruhum 'inda rabbihim'); kedua, tidak ada ketakutan ('la khaufun 'alaihim') terhadap masa depan dan hari kiamat; ketiga, tidak bersedih hati ('wala hum yahzanun') atas apa yang telah lewat. Ini adalah gambaran ketenangan jiwa (inner peace) yang sempurna - terbebas dari kecemasan tentang masa depan dan penyesalan tentang masa lalu. Bagi mahasiswa yang sering mengalami stres dan kecemasan (tentang nilai, karir, masa depan), ayat ini menawarkan solusi spiritual: dengan menjaga iman, amal shaleh, shalat, dan zakat, Allah akan memberikan ketenangan hati yang hakiki."
+    },
+    {
+      "id": 21,
+      "themeId": 5,
+      "surah": "Al-Mujadilah",
+      "ayah": 11,
+      "juz": 28,
+      "arabic": "يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ ۚ وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "translation": "Niscaya Allah akan mengangkat (derajat) orang-orang yang beriman di antaramu dan orang-orang yang diberi ilmu beberapa derajat. Dan Allah Mahateliti apa yang kamu kerjakan.",
+      "tafsir": "Ayat ini menegaskan kemuliaan ilmu dalam Islam dengan menjanjikan Allah akan mengangkat derajat orang yang beriman dan berilmu. Yang menarik, orang berilmu disebutkan terpisah setelah orang beriman, menunjukkan bahwa kombinasi iman dan ilmu adalah yang paling mulia. Ilmu tanpa iman bisa berbahaya, dan iman tanpa ilmu bisa menjadi fanatisme buta. Kata 'darajat' (beberapa derajat) menunjukkan peningkatan bertingkat, baik di dunia (dalam bentuk kehormatan, pengaruh positif, manfaat kepada masyarakat) maupun di akhirat (dalam bentuk pahala dan surga yang lebih tinggi). Frasa 'wallahu bima ta'maluna khabir' (Allah Mahateliti apa yang kamu kerjakan) mengingatkan bahwa ilmu harus diamalkan dengan ikhlas. Bagi mahasiswa, ayat ini adalah motivasi tertinggi untuk menuntut ilmu: bukan untuk gengsi atau materi semata, tetapi karena ilmu adalah jalan untuk meraih kemuliaan di sisi Allah."
+    },
+    {
+      "id": 22,
+      "themeId": 5,
+      "surah": "Al-'Alaq",
+      "ayah": 15,
+      "juz": 30,
+      "arabic": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ ۝ خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ ۝ اقْرَأْ وَرَبُّكَ الْأَكْرَمُ ۝ الَّذِي عَلَّمَ بِالْقَلَمِ ۝ عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ",
+      "translation": "Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan. Dia telah menciptakan manusia dari segumpal darah. Bacalah, dan Tuhanmu Yang Mahamulia, Yang mengajar (manusia) dengan pena. Dia mengajarkan manusia apa yang tidak diketahuinya.",
+      "tafsir": "Ini adalah wahyu pertama yang turun kepada Nabi Muhammad SAW, dan signifikan bahwa perintah pertama adalah 'iqra' (bacalah). Ini menunjukkan pentingnya ilmu dan literasi dalam Islam. Perintah membaca dikaitkan dengan 'bismi rabbika' (dengan nama Tuhanmu), artinya ilmu harus dimulai dengan niat karena Allah, bukan untuk kesombongan. Penyebutan Allah sebagai Khaliq (Pencipta) menghubungkan ilmu dengan perenungan atas ciptaan-Nya. Ayat ketiga menyebut 'al-qalam' (pena) sebagai alat ilmu, menunjukkan pentingnya menulis dan mendokumentasikan ilmu. Ayat terakhir menegaskan bahwa Allah-lah yang mengajarkan manusia, artinya semua ilmu pada hakikatnya bersumber dari Allah. Bagi mahasiswa, lima ayat ini adalah magna carta pendidikan Islam: membaca, menulis, dan belajar adalah ibadah ketika diniatkan untuk mengenal Allah dan memberi manfaat kepada umat manusia."
+    },
+    {
+      "id": 23,
+      "themeId": 5,
+      "surah": "Taha",
+      "ayah": 114,
+      "juz": 16,
+      "arabic": "وَقُل رَّبِّ زِدْنِي عِلْمًا",
+      "translation": "Dan katakanlah, 'Ya Tuhanku, tambahkanlah ilmu kepadaku.'",
+      "tafsir": "Ayat ini adalah doa yang Allah ajarkan langsung kepada Rasulullah SAW dan seluruh umat Islam untuk memohon tambahan ilmu. Yang menarik, dari sekian banyak hal yang bisa diminta, Allah memilih untuk mengajarkan doa meminta tambahan ilmu. Ini menunjukkan bahwa ilmu adalah harta yang paling berharga dan tidak ada batasnya. Berbeda dengan harta dunia yang jika kita meminta lebih bisa menjadi keserakahan, meminta tambahan ilmu selalu terpuji. Doa ini mengajarkan bahwa betapapun tingginya ilmu seseorang, dia harus tetap merasa kurang dan terus belajar. Sikap ini adalah ciri ulama dan ilmuwan sejati yang rendah hati. Imam Syafi'i berkata: 'Semakin aku belajar, semakin aku tahu betapa banyak yang tidak aku ketahui.' Bagi mahasiswa, ayat ini mengajarkan growth mindset: selalu ada ruang untuk belajar lebih banyak, dan kesombongan karena merasa sudah pintar adalah awal dari kebodohan."
+    },
+    {
+      "id": 24,
+      "themeId": 5,
+      "surah": "Az-Zumar",
+      "ayah": 9,
+      "juz": 23,
+      "arabic": "قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ ۗ إِنَّمَا يَتَذَكَّرُ أُولُو الْأَلْبَابِ",
+      "translation": "Katakanlah, 'Apakah sama orang-orang yang mengetahui dengan orang-orang yang tidak mengetahui?' Sebenarnya hanya orang yang berakal sehat yang dapat menerima pelajaran.",
+      "tafsir": "Ayat ini berbentuk pertanyaan retoris yang jawabannya jelas: tentu tidak sama. Orang yang berilmu memiliki keunggulan dalam memahami kehidupan, membuat keputusan yang tepat, berkontribusi kepada masyarakat, dan menjalankan ibadah dengan kesadaran penuh. Orang yang tidak berilmu akan mudah tersesat, mudah ditipu, dan tidak dapat membedakan yang hak dan yang batil. Frasa 'innama yatazakkaru ulul albab' (hanya orang berakal yang dapat mengambil pelajaran) menunjukkan bahwa ilmu sejati bukan sekadar informasi yang dihafal, tetapi hikmah yang dipahami dan direnungkan oleh akal yang jernih. 'Ulul albab' adalah orang-orang yang menggunakan akalnya untuk berpikir mendalam tentang ayat-ayat Allah, baik ayat qauliyah (Al-Qur'an) maupun ayat kauniyah (alam semesta). Bagi mahasiswa, ayat ini memotivasi untuk serius dalam belajar dan tidak puas dengan pengetahuan yang superfisial."
+    },
+    {
+      "id": 25,
+      "themeId": 5,
+      "surah": "Al-'Ankabut",
+      "ayah": 43,
+      "juz": 21,
+      "arabic": "وَتِلْكَ الْأَمْثَالُ نَضْرِبُهَا لِلنَّاسِ ۖ وَمَا يَعْقِلُهَا إِلَّا الْعَالِمُونَ",
+      "translation": "Dan perumpamaan-perumpamaan ini Kami buat untuk manusia, dan tidak ada yang memahaminya kecuali orang-orang yang berilmu.",
+      "tafsir": "Ayat ini menjelaskan bahwa Al-Qur'an penuh dengan amtsal (perumpamaan, analogi, metafora) yang bertujuan untuk mempermudah pemahaman konsep-konsep abstrak. Namun, untuk benar-benar memahami hikmah di balik perumpamaan tersebut, dibutuhkan ilmu. Kata 'ya'qiluha' (memahaminya dengan akal) menunjukkan bahwa pemahaman Al-Qur'an memerlukan proses intelektual, bukan sekadar membaca teks. 'Al-'alimun' di sini bukan hanya orang yang memiliki banyak informasi, tetapi orang yang memiliki pemahaman mendalam ('alimun berasal dari kata 'ilm yang berarti pengetahuan mendalam). Ayat ini mengajarkan bahwa studi Al-Qur'an memerlukan ilmu-ilmu pendukung seperti bahasa Arab, tafsir, asbabun nuzul, nasikh-mansukh, dan ilmu-ilmu alam untuk memahami ayat-ayat kauniyah. Bagi mahasiswa, terutama yang belajar di jurusan agama atau ilmu sosial, ayat ini menunjukkan pentingnya pendekatan multidisipliner dalam memahami Al-Qur'an, mengintegrasikan ilmu agama dengan ilmu umum untuk pemahaman yang komprehensif."
+    },
+    {
+      "id": 26,
+      "themeId": 6,
+      "surah": "An-Nisa",
+      "ayah": 58,
+      "juz": 5,
+      "arabic": "إِنَّ اللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُوا بِالْعَدْلِ ۚ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُم بِهِ ۗ إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا",
+      "translation": "Sesungguhnya Allah menyuruh kamu menyampaikan amanat kepada yang berhak menerimanya, dan (menyuruh kamu) apabila menetapkan hukum di antara manusia supaya kamu menetapkan dengan adil. Sesungguhnya Allah memberi pengajaran yang sebaik-baiknya kepadamu. Sesungguhnya Allah adalah Maha Mendengar lagi Maha Melihat.",
+      "tafsir": "Ayat ini merupakan fondasi etika dalam keadilan sosial dan pemerintahan Islam. Kata 'amanat' mencakup semua tanggung jawab yang dipercayakan kepada seseorang, baik dalam urusan agama (seperti menjalankan syariat) maupun dunia (seperti jabatan publik, harta titipan, atau rahasia orang lain). Perintah untuk menyampaikan amanat kepada ahlinya berarti menempatkan orang yang kompeten pada posisi yang tepat, bukan nepotisme atau korupsi. Bagian kedua ayat ini berbicara tentang keadilan dalam pengadilan dan pemerintahan. Kata 'al-'adl' (keadilan) berarti menempatkan sesuatu pada tempatnya yang tepat, tidak berat sebelah, dan tidak dipengaruhi oleh hubungan personal, suku, atau status sosial. Frasa 'samii'an bashiira' (Maha Mendengar dan Maha Melihat) di akhir ayat adalah pengingat bahwa Allah mengawasi setiap keputusan dan tindakan kita, sehingga tidak ada yang tersembunyi dari-Nya. Bagi mahasiswa, khususnya yang berkuliah di fakultas hukum, administrasi publik, atau ilmu politik, ayat ini mengajarkan prinsip meritokrasi dan rule of law yang harus menjadi landasan dalam sistem pemerintahan dan peradilan yang baik."
+    },
+    {
+      "id": 27,
+      "themeId": 6,
+      "surah": "Al-Ma'idah",
+      "ayah": 8,
+      "juz": 6,
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا ۚ اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ ۖ وَاتَّقُوا اللَّهَ ۚ إِنَّ اللَّهَ خَبِيرٌ بِمَا تَعْمَلُونَ",
+      "translation": "Wahai orang-orang yang beriman, jadilah kamu orang yang benar-benar penegak keadilan karena Allah, menjadi saksi dengan adil. Dan janganlah sekali-kali kebencianmu terhadap suatu kaum mendorong kamu untuk berlaku tidak adil. Berlaku adillah, karena adil itu lebih dekat kepada takwa. Dan bertakwalah kepada Allah, sesungguhnya Allah Maha Mengetahui apa yang kamu kerjakan.",
+      "tafsir": "Ayat ini adalah pilar tertinggi dari keadilan objektif dalam Islam. Kata 'qawwamina' (penegak) menunjukkan sikap konsisten dan teguh dalam menegakkan keadilan, bukan hanya sesekali atau situasional. Yang menarik adalah perintah untuk tetap adil bahkan terhadap musuh atau orang yang kita benci ('shana'an qawm' = kebencian terhadap suatu kaum). Ini menunjukkan bahwa keadilan dalam Islam bersifat universal dan tidak boleh dipengaruhi oleh sentimen pribadi, prasangka ras, atau kepentingan kelompok. Ayat ini turun dalam konteks hubungan dengan orang-orang musyrik Mekkah yang telah menyakiti kaum muslimin, namun tetap memerintahkan sikap adil. Frasa 'huwa aqrabu littaqwa' (lebih dekat kepada takwa) menunjukkan bahwa keadilan adalah wujud nyata dari ketakwaan, bukan sekadar ritual ibadah. Bagi mahasiswa, terutama di era polarisasi politik dan identitas yang tinggi, ayat ini mengajarkan pentingnya objektivitas dan profesionalisme, bahwa perbedaan pandangan politik, agama, atau latar belakang tidak boleh membuat kita berlaku tidak adil dalam pekerjaan, penelitian, atau kehidupan sosial."
+    },
+    {
+      "id": 28,
+      "themeId": 6,
+      "surah": "An-Nahl",
+      "ayah": 90,
+      "juz": 14,
+      "arabic": "إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ وَإِيتَاءِ ذِي الْقُرْبَىٰ وَيَنْهَىٰ عَنِ الْفَحْشَاءِ وَالْمُنكَرِ وَالْبَغْيِ ۚ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "translation": "Sesungguhnya Allah menyuruh (kamu) berlaku adil dan berbuat kebajikan, memberi kepada kaum kerabat, dan Allah melarang dari perbuatan keji, kemungkaran dan permusuhan. Dia memberi pengajaran kepadamu agar kamu dapat mengambil pelajaran.",
+      "tafsir": "Ayat ini disebut oleh Ibnu Mas'ud sebagai ayat yang paling komprehensif dalam Al-Qur'an tentang etika sosial. Ayat ini memuat tiga perintah dan tiga larangan. Perintah pertama adalah 'al-'adl' (keadilan), yaitu memberikan hak kepada yang berhak secara proporsional. Perintah kedua adalah 'al-ihsan' (kebajikan), yaitu berbuat baik melebihi standar keadilan—ini adalah tingkat yang lebih tinggi dari sekadar adil. Misalnya, adil adalah membayar gaji karyawan sesuai kontrak, sedangkan ihsan adalah memberi bonus atau tunjangan tambahan. Perintah ketiga adalah 'ita'i dzil qurba' (memberi kepada kerabat), yang menunjukkan pentingnya solidaritas keluarga dan mencegah kesenjangan ekonomi dalam keluarga besar. Tiga larangan dalam ayat ini adalah: al-fahsya' (perbuatan keji seperti zina dan kejahatan moral), al-munkar (segala yang ditolak oleh fitrah dan syariat), dan al-baghy (permusuhan dan melampaui batas terhadap orang lain). Bagi mahasiswa yang aktif dalam organisasi atau komunitas, ayat ini mengajarkan bahwa kepemimpinan yang baik tidak cukup hanya dengan adil, tetapi juga harus ihsan—memberikan lebih dari yang diharapkan untuk kebaikan bersama."
+    },
+    {
+      "id": 29,
+      "themeId": 6,
+      "surah": "An-Nisa",
+      "ayah": 135,
+      "juz": 5,
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ بِالْقِسْطِ شُهَدَاءَ لِلَّهِ وَلَوْ عَلَىٰ أَنفُسِكُمْ أَوِ الْوَالِدَيْنِ وَالْأَقْرَبِينَ ۚ إِن يَكُنْ غَنِيًّا أَوْ فَقِيرًا فَاللَّهُ أَوْلَىٰ بِهِمَا ۖ فَلَا تَتَّبِعُوا الْهَوَىٰ أَن تَعْدِلُوا ۚ وَإِن تَلْوُوا أَوْ تُعْرِضُوا فَإِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "translation": "Wahai orang-orang yang beriman, jadilah kamu orang yang benar-benar penegak keadilan, menjadi saksi karena Allah biarpun terhadap dirimu sendiri atau ibu bapak dan kaum kerabatmu. Jika ia kaya ataupun miskin, maka Allah lebih tahu kemaslahatannya. Maka janganlah kamu mengikuti hawa nafsu karena ingin menyimpang dari kebenaran. Dan jika kamu memutar balikkan (kata-kata) atau enggan menjadi saksi, maka sesungguhnya Allah adalah Maha Mengetahui segala apa yang kamu kerjakan.",
+      "tafsir": "Ayat ini adalah puncak dari konsep keadilan yang tidak pandang bulu dalam Islam. Perintah untuk menjadi saksi yang adil 'wa law 'ala anfusikum' (bahkan terhadap diri sendiri) menunjukkan tingkat integritas tertinggi—kesediaan untuk mengakui kesalahan sendiri meski merugikan. Frasa 'aw al-walidayni wal aqrabin' (atau terhadap orang tua dan kerabat) menunjukkan bahwa ikatan keluarga tidak boleh menghalangi keadilan. Ayat ini juga melarang diskriminasi berdasarkan status ekonomi ('in yakun ghaniyyan aw faqiiran')—baik kaya maupun miskin harus diperlakukan sama di hadapan hukum. Peringatan 'fala tattabi'u al-hawa' (janganlah mengikuti hawa nafsu) menunjukkan bahwa ketidakadilan sering bersumber dari kepentingan pribadi, emosi, atau tekanan sosial. Kata 'talwu' (memutar-balikkan) merujuk pada manipulasi kesaksian atau fakta, sedangkan 'tu'ridu' (berpaling) adalah sikap pasif yang membiarkan ketidakadilan terjadi. Bagi mahasiswa, khususnya calon profesional di bidang hukum, jurnalisme, atau audit, ayat ini mengajarkan pentingnya whistleblowing dan keberanian untuk mengungkap kebenaran meski berisiko terhadap karir atau hubungan personal."
+    },
+    {
+      "id": 30,
+      "themeId": 6,
+      "surah": "Hud",
+      "ayah": 85,
+      "juz": 12,
+      "arabic": "وَيَا قَوْمِ أَوْفُوا الْمِكْيَالَ وَالْمِيزَانَ بِالْقِسْطِ ۖ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تَعْثَوْا فِي الْأَرْضِ مُفْسِدِينَ",
+      "translation": "Dan Syu'aib berkata, 'Wahai kaumku, sempurnakanlah takaran dan timbangan dengan adil, dan janganlah kamu merugikan manusia terhadap hak-hak mereka dan janganlah kamu membuat kerusakan di muka bumi.'",
+      "tafsir": "Ayat ini adalah bagian dari nasihat Nabi Syu'aib kepada kaum Madyan yang terkenal dengan kecurangan dalam perdagangan. Perintah 'awfu al-mikyal wal mizan' (sempurnakanlah takaran dan timbangan) secara literal berbicara tentang kejujuran dalam transaksi ekonomi, namun secara lebih luas mencakup segala bentuk keadilan dalam memberikan hak. Kata 'bil qisth' (dengan adil) menunjukkan bahwa standarnya bukan sekadar memenuhi kewajiban minimal, tetapi benar-benar adil dan seimbang. Larangan 'la tabkhasu an-nasa ashya'ahum' (janganlah merugikan manusia terhadap hak-hak mereka) mencakup semua bentuk eksploitasi—baik dalam bisnis (seperti mengurangi takaran, kualitas produk yang tidak sesuai iklan, gaji yang tidak adil), maupun dalam hubungan sosial (seperti plagiarisme, mengambil kredit atas kerja orang lain, atau tidak menghargai kontribusi anggota tim). Frasa terakhir 'wala ta'thaw fil ardhi mufsidiin' (janganlah membuat kerusakan di bumi) menunjukkan bahwa ketidakadilan ekonomi adalah bentuk kerusakan sosial yang berdampak luas. Bagi mahasiswa yang akan terjun ke dunia kerja atau bisnis, ayat ini mengajarkan pentingnya integritas dalam profesionalisme, transparansi dalam bisnis, dan tanggung jawab sosial korporat (CSR) yang bukan sekadar pencitraan."
+    },
+    {
+      "id": 31,
+      "themeId": 7,
+      "surah": "Al-Isra",
+      "ayah": 23,
+      "juz": 15,
+      "arabic": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ الْكِبَرَ أَحَدُهُمَا أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًا كَرِيمًا",
+      "translation": "Dan Tuhanmu telah memerintahkan supaya kamu jangan menyembah selain Dia dan hendaklah kamu berbuat baik pada ibu-bapakmu dengan sebaik-baiknya. Jika salah seorang di antara keduanya atau kedua-duanya sampai berumur lanjut dalam pemeliharaanmu, maka sekali-kali janganlah kamu mengatakan kepada keduanya perkataan 'ah' dan janganlah kamu membentak mereka dan ucapkanlah kepada mereka perkataan yang mulia.",
+      "tafsir": "Ayat ini menempatkan birrul walidain (berbakti kepada orang tua) langsung setelah perintah tauhid, menunjukkan betapa pentingnya posisi ini dalam Islam. Kata 'qadha' (memerintahkan) menunjukkan ini adalah kewajiban yang pasti dan tidak bisa ditawar. Perintah 'ihsanan' (berbuat baik dengan sebaik-baiknya) bukan sekadar memenuhi kewajiban dasar, tetapi memberikan yang terbaik dengan penuh kasih sayang. Ayat ini secara khusus menekankan fase ketika orang tua sudah lanjut usia ('yabl'ughanna 'indaka al-kibara'), karena ini adalah fase ketika mereka paling membutuhkan perhatian dan kesabaran—mungkin menjadi lemah, pelupa, atau rewel seperti anak kecil. Larangan mengucapkan kata 'uff' (ungkapan kekesalan sekecil apa pun) menunjukkan standar kesabaran yang sangat tinggi—bahkan ekspresi wajah atau nada bicara yang menunjukkan ketidaksabaran pun tidak diperbolehkan. Perintah 'qul lahuma qawlan kariima' (ucapkanlah perkataan yang mulia) mengajarkan adab komunikasi yang santun, hormat, dan penuh kehangatan. Bagi mahasiswa yang mungkin sedang kuliah jauh dari orang tua atau sibuk dengan aktivitas kampus, ayat ini mengingatkan untuk tetap menjaga komunikasi, menghubungi orang tua secara rutin, dan tidak melalaikan tanggung jawab terhadap mereka meski sibuk dengan kehidupan sendiri."
+    },
+    {
+      "id": 32,
+      "themeId": 7,
+      "surah": "Ar-Rum",
+      "ayah": 21,
+      "juz": 21,
+      "arabic": "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "translation": "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berpikir.",
+      "tafsir": "Ayat ini menjelaskan filosofi pernikahan dalam Islam dengan sangat indah. Kata 'min anfusikum' (dari jenis kalian sendiri) menunjukkan kesetaraan antara suami dan istri—keduanya adalah manusia yang sederajat, bukan superior-inferior. Tujuan pernikahan yang pertama adalah 'litaskunu ilayha' (supaya kamu merasa tenteram kepadanya). Kata 'sakinah' berasal dari kata 'sukun' yang berarti ketenangan dan kedamaian—rumah tangga seharusnya menjadi tempat berlindung dari kelelahan dan tekanan dunia luar. Dua pilar hubungan suami-istri yang disebutkan adalah 'mawaddah' (cinta yang penuh gairah dan ketertarikan) dan 'rahmah' (kasih sayang yang lembut dan pengertian). Mawaddah adalah fondasi di awal pernikahan, sedangkan rahmah adalah yang akan bertahan ketika gairah memudar—ini adalah kasih sayang yang lahir dari pengertian, pengorbanan, dan sejarah bersama. Frasa 'liqawmin yatafakkarun' (bagi kaum yang berpikir) menunjukkan bahwa pernikahan memerlukan kematangan intelektual dan emosional, bukan sekadar dorongan biologis. Bagi mahasiswa yang mungkin sedang menjalin hubungan atau mempertimbangkan pernikahan, ayat ini mengajarkan bahwa pernikahan bukan hanya tentang cinta romantis, tetapi tentang membangun ketenangan, komitmen jangka panjang, dan kesiapan untuk saling memahami dalam suka dan duka."
+    },
+    {
+      "id": 33,
+      "themeId": 7,
+      "surah": "At-Tahrim",
+      "ayah": 6,
+      "juz": 28,
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا قُوا أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًا وَقُودُهَا النَّاسُ وَالْحِجَارَةُ عَلَيْهَا مَلَائِكَةٌ غِلَاظٌ شِدَادٌ لَّا يَعْصُونَ اللَّهَ مَا أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ",
+      "translation": "Hai orang-orang yang beriman, peliharalah dirimu dan keluargamu dari api neraka yang bahan bakarnya adalah manusia dan batu; penjaganya malaikat-malaikat yang kasar, keras, dan tidak mendurhakai Allah terhadap apa yang diperintahkan-Nya kepada mereka dan selalu mengerjakan apa yang diperintahkan.",
+      "tafsir": "Ayat ini menetapkan tanggung jawab fundamental setiap muslim terhadap keluarganya dalam hal pendidikan agama dan moral. Perintah 'qu anfusakum wa ahlikum naara' (peliharalah dirimu dan keluargamu dari api neraka) menunjukkan bahwa tanggung jawab pendidikan tidak bisa dilimpahkan sepenuhnya kepada sekolah atau guru ngaji—orang tua adalah pendidik utama. Kata 'qu' (peliharalah) mencakup tindakan preventif (mencegah keluarga dari perbuatan maksiat) dan kuratif (membimbing mereka kembali jika tersesat). Menurut Ibnu Abbas dan Ali bin Abi Thalib, cara memelihara keluarga dari api neraka adalah dengan mengajarkan mereka ilmu agama, mendidik akhlak yang baik, dan menjadi teladan dalam ketaatan. Deskripsi neraka yang mengerikan dalam ayat ini ('waquduha an-nasu wal hijarah'—bahan bakarnya manusia dan batu) adalah peringatan keras tentang konsekuensi kelalaian dalam mendidik keluarga. Bagi mahasiswa yang kelak akan berkeluarga, ayat ini mengajarkan pentingnya mempersiapkan diri dengan ilmu agama yang cukup, karena mendidik anak bukan hanya soal menyediakan fasilitas materiil, tetapi juga membentuk karakter spiritual dan moral mereka. Orang tua akan dimintai pertanggungjawaban atas pendidikan anak-anaknya di akhirat kelak."
+    },
+    {
+      "id": 34,
+      "themeId": 7,
+      "surah": "An-Nisa",
+      "ayah": 19,
+      "juz": 4,
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا يَحِلُّ لَكُمْ أَن تَرِثُوا النِّسَاءَ كَرْهًا ۖ وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا بِبَعْضِ مَا آتَيْتُمُوهُنَّ إِلَّا أَن يَأْتِينَ بِفَاحِشَةٍ مُّبَيِّنَةٍ ۚ وَعَاشِرُوهُنَّ بِالْمَعْرُوفِ ۚ فَإِن كَرِهْتُمُوهُنَّ فَعَسَىٰ أَن تَكْرَهُوا شَيْئًا وَيَجْعَلَ اللَّهُ فِيهِ خَيْرًا كَثِيرًا",
+      "translation": "Wahai orang-orang yang beriman, tidak halal bagi kamu mempusakai perempuan dengan jalan paksa dan janganlah kamu menyusahkan mereka karena hendak mengambil kembali sebagian dari apa yang telah kamu berikan kepadanya, kecuali bila mereka melakukan perbuatan keji yang nyata. Dan bergaullah dengan mereka secara patut. Kemudian bila kamu tidak menyukai mereka, (maka bersabarlah) karena boleh jadi kamu tidak menyukai sesuatu, padahal Allah menjadikan padanya kebaikan yang banyak.",
+      "tafsir": "Ayat ini turun untuk menghapus praktik jahiliyah di mana perempuan diperlakukan sebagai harta warisan yang bisa dikuasai paksa oleh ahli waris laki-laki. Larangan 'an tarithu an-nisa'a karhan' (mempusakai perempuan dengan paksa) menunjukkan bahwa perempuan memiliki kebebasan penuh untuk memilih jodoh dan tidak boleh dipaksa menikah dengan siapa pun. Larangan 'wala ta'dluluuhunna' (menyusahkan mereka) mencakup segala bentuk eksploitasi atau perlakuan kasar untuk mengambil kembali mahar atau harta yang telah diberikan, seperti menyiksa istri secara psikologis agar dia mau minta cerai dan mengembalikan maharnya. Perintah 'wa 'aashiruuhunna bil ma'ruf' (bergaullah dengan mereka secara patut) adalah prinsip umum dalam hubungan suami-istri yang mencakup perlakuan yang baik, ucapan yang santun, dan memenuhi hak-hak istri. Bagian terakhir ayat sangat mendalam secara psikologis: 'fa'in karihtumuuhunna fa'asa an takrahuu shay'an wayaj'alallahu fihi khayran kathiira' (bila kamu tidak menyukai mereka, boleh jadi kamu tidak menyukai sesuatu padahal Allah menjadikan padanya kebaikan yang banyak). Ini mengajarkan bahwa dalam pernikahan, kita tidak boleh hanya menuruti perasaan sesaat—ada banyak keberkahan yang mungkin tidak terlihat di permukaan, seperti kesabaran, kedewasaan, atau anak-anak saleh yang lahir dari pernikahan tersebut. Bagi mahasiswa, ayat ini mengajarkan pentingnya menghormati otonomi perempuan, larangan eksploitasi ekonomi dalam rumah tangga, dan kebijaksanaan untuk tidak tergesa-gesa memutuskan perceraian karena konflik yang bersifat sementara."
+    },
+    {
+      "id": 35,
+      "themeId": 7,
+      "surah": "Luqman",
+      "ayah": 14,
+      "juz": 21,
+      "arabic": "وَوَصَّيْنَا الْإِنسَانَ بِوَالِدَيْهِ حَمَلَتْهُ أُمُّهُ وَهْنًا عَلَىٰ وَهْنٍ وَفِصَالُهُ فِي عَامَيْنِ أَنِ اشْكُرْ لِي وَلِوَالِدَيْكَ إِلَيَّ الْمَصِيرُ",
+      "translation": "Dan Kami perintahkan kepada manusia (berbuat baik) kepada dua orang ibu-bapaknya; ibunya telah mengandungnya dalam keadaan lemah yang bertambah-tambah, dan menyapihnya dalam dua tahun. Bersyukurlah kepada-Ku dan kepada dua orang ibu bapakmu, hanya kepada-Kulah kembalimu.",
+      "tafsir": "Ayat ini menjelaskan secara spesifik pengorbanan seorang ibu dan mengapa berbakti kepada orang tua, khususnya ibu, sangat ditekankan dalam Islam. Frasa 'hamalathu ummuhu wahnan 'ala wahnin' (ibunya mengandungnya dalam keadaan lemah yang bertambah-tambah) menggambarkan proses kehamilan yang penuh penderitaan—dari morning sickness, perubahan hormonal, beban fisik yang semakin berat, hingga risiko nyawa saat melahirkan. Kata 'wahn' diulang dua kali untuk menekankan bahwa kelemahan ibu terus bertambah seiring bertambahnya usia kehamilan. Penyebutan 'fishaluhu fi 'amayn' (menyapihnya dalam dua tahun) menunjukkan periode penyusuan yang penuh pengorbanan waktu, energi, dan kenyamanan ibu. Setelah menjelaskan pengorbanan orang tua, Allah langsung memerintahkan 'an ishkur li wali walidayka' (bersyukurlah kepada-Ku dan kepada kedua orang tuamu)—ini menunjukkan bahwa syukur kepada orang tua adalah bagian dari syukur kepada Allah, dan yang ingkar kepada orang tua berarti ingkar kepada nikmat Allah. Bagi mahasiswa, terutama yang sedang kuliah jauh dari rumah atau merasa sudah dewasa dan mandiri, ayat ini mengingatkan bahwa tidak ada pencapaian kita yang terlepas dari pengorbanan orang tua, dan betapa pun sibuknya kita, kewajiban berbakti kepada mereka tidak pernah gugur."
+    },
+    {
+      "id": 36,
+      "themeId": 8,
+      "surah": "Al-Mulk",
+      "ayah": 2,
+      "juz": 29,
+      "arabic": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ الْعَزِيزُ الْغَفُورُ",
+      "translation": "Yang menjadikan mati dan hidup, supaya Dia menguji kamu, siapa di antara kamu yang lebih baik amalnya. Dan Dia Maha Perkasa lagi Maha Pengampun.",
+      "tafsir": "Ayat ini mengungkapkan salah satu rahasia terbesar eksistensi manusia: hidup dan mati diciptakan sebagai ujian. Yang menarik adalah Allah menyebutkan kematian terlebih dahulu sebelum kehidupan ('al-mawta wal hayah'), yang menurut para mufassir menunjukkan bahwa kematian adalah tujuan akhir yang pasti, dan kehidupan hanyalah fase persiapan menuju kematian tersebut. Tujuan penciptaan hidup dan mati adalah 'liyabluwakum ayyukum ahsanu 'amala' (untuk menguji kalian, siapa yang paling baik amalnya). Kata 'ahsanu' (paling baik) bukan 'aktharu' (paling banyak), menunjukkan bahwa yang dinilai bukan kuantitas amal, tetapi kualitasnya—apakah dilakukan dengan ikhlas, sesuai sunnah, dan bermanfaat. Menurut Al-Fudhayl bin 'Iyadh, 'ahsanu 'amala' adalah amal yang paling ikhlas dan paling benar (sesuai syariat). Penyebutan sifat Allah 'al-'Aziz al-Ghafur' (Maha Perkasa lagi Maha Pengampun) di akhir ayat menunjukkan bahwa meski Allah Maha Kuasa untuk menghukum kesalahan kita, Dia juga Maha Pengampun bagi yang bertobat. Bagi mahasiswa yang sedang menikmati masa muda, ayat ini adalah pengingat bahwa hidup ini bukan untuk bersenang-senang tanpa tujuan, tetapi untuk berlomba-lomba dalam kebaikan karena kematian bisa datang kapan saja, dan yang dibawa mati adalah amal, bukan gelar, harta, atau popularitas."
+    },
+    {
+      "id": 37,
+      "themeId": 8,
+      "surah": "Ali 'Imran",
+      "ayah": 185,
+      "juz": 4,
+      "arabic": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ ۗ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ الْقِيَامَةِ ۖ فَمَن زُحْزِحَ عَنِ النَّارِ وَأُدْخِلَ الْجَنَّةَ فَقَدْ فَازَ ۗ وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ",
+      "translation": "Tiap-tiap yang berjiwa akan merasakan mati. Dan sesungguhnya pada hari kiamat sajalah disempurnakan pahalamu. Barang siapa dijauhkan dari neraka dan dimasukkan ke dalam surga, maka sungguh ia telah beruntung. Kehidupan dunia itu tidak lain hanyalah kesenangan yang memperdayakan.",
+      "tafsir": "Ayat ini membuka dengan pernyataan universal yang paling pasti dalam kehidupan: 'kullu nafsin dza'iqatul mawt' (setiap jiwa akan merasakan mati). Tidak ada pengecualian—raja atau rakyat jelata, kaya atau miskin, muda atau tua, semua akan mati. Kata 'dza'iqah' (merasakan) menunjukkan bahwa kematian adalah pengalaman yang akan dirasakan langsung oleh setiap individu, bukan sekadar konsep abstrak. Ayat ini kemudian menjelaskan bahwa balasan sempurna baru akan diterima 'yawmal qiyamah' (pada hari kiamat)—kehidupan dunia dengan segala kesuksesan atau kegagalannya bukanlah hasil akhir. Definisi kesuksesan sejati menurut ayat ini adalah 'man zuhziha 'an an-nari wa udkhilal jannah faqad faz' (barang siapa dijauhkan dari neraka dan dimasukkan ke surga, maka sungguh ia telah beruntung). Ini adalah standar kesuksesan yang sangat berbeda dari standar dunia yang mengukur kesuksesan dengan kekayaan, jabatan, atau ketenaran. Bagian akhir ayat 'wa mal hayatud dunya illa mata'ul ghurur' (kehidupan dunia tidak lain hanyalah kesenangan yang memperdayakan) bukan berarti kita harus meninggalkan dunia, tetapi mengingatkan agar tidak tertipu dengan kenikmatan sementara hingga lupa pada tujuan akhir. Bagi mahasiswa yang mungkin sedang mengejar prestasi akademik, karir, atau kesuksesan material, ayat ini mengajarkan pentingnya menyeimbangkan antara kesuksesan dunia dan persiapan akhirat, karena kesuksesan sejati adalah selamat dari neraka dan masuk surga."
+    },
+    {
+      "id": 38,
+      "themeId": 8,
+      "surah": "Az-Zalzalah",
+      "ayah": 7,
+      "juz": 30,
+      "arabic": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ",
+      "translation": "Barang siapa yang mengerjakan kebaikan seberat dzarrah pun, niscaya dia akan melihat (balasan)nya.",
+      "tafsir": "Ayat ini adalah salah satu ayat yang paling memberikan motivasi dan penghiburan sekaligus peringatan dalam Al-Qur'an. Kata 'mithqala dzarrah' (seberat dzarrah) merujuk pada ukuran yang sangat kecil—dzarrah adalah partikel terkecil yang dapat dilihat mata ketika ada cahaya matahari masuk melalui celah jendela, atau dalam pemahaman modern, setara dengan atom. Ayat ini mengajarkan bahwa tidak ada amal sekecil apa pun yang akan sia-sia di hadapan Allah. Senyuman kepada orang lain, membuang duri dari jalan, menyingkirkan batu yang menghalangi jalan, bahkan niat baik yang tidak sempat dilaksanakan karena uzur—semuanya tercatat dan akan mendapat balasan. Kata 'yarahu' (akan melihatnya) menunjukkan bahwa kelak di akhirat kita akan melihat sendiri setiap amal kecil kita tertulis dalam catatan dan diberi balasan. Ayat ini juga berlaku untuk keburukan (ayat berikutnya, ayat 8), sehingga kita juga harus berhati-hati dengan dosa-dosa kecil yang sering dianggap remeh seperti ghibah (bergosip), berbohong kecil, atau menunda-nunda shalat. Bagi mahasiswa, ayat ini sangat relevan: jangan meremehkan amal kecil seperti membantu teman memahami materi, berbagi catatan, menjenguk teman yang sakit, atau bersedekah seikhlasnya—semua akan tercatat. Sebaliknya, jangan pula meremehkan dosa kecil seperti menyontek, berbohong kepada dosen, atau menyakiti hati teman dengan kata-kata kasar."
+    },
+    {
+      "id": 39,
+      "themeId": 8,
+      "surah": "Al-Qari'ah",
+      "ayah": 6,
+      "juz": 30,
+      "arabic": "فَأَمَّا مَن ثَقُلَتْ مَوَازِينُهُ",
+      "translation": "Adapun orang-orang yang berat timbangan (kebaikan)nya.",
+      "tafsir": "Ayat ini adalah bagian dari surah Al-Qari'ah yang menggambarkan hari kiamat dengan sangat detail. Konteks lengkapnya (ayat 6-11) menjelaskan nasib dua golongan manusia berdasarkan timbangan amal mereka. Kata 'mawazin' (timbangan) dalam bentuk jamak menunjukkan bahwa ada banyak aspek yang akan ditimbang—bukan hanya shalat, tetapi juga akhlak, muamalah, keadilan, kejujuran, dan seluruh aspek kehidupan. Orang yang 'thaqulat mawazinuh' (berat timbangan kebaikannya) akan berada dalam kehidupan yang memuaskan di surga (ayat 7: fa huwa fi 'ishatin radhiyah). Sebaliknya, orang yang 'khaffat mawazinuh' (ringan timbangan kebaikannya) akan menempati Hawiyah, yang dijelaskan sebagai api yang sangat panas. Yang menakjubkan adalah standar 'berat' atau 'ringan' ini bersifat mutlak di hadapan Allah—seseorang bisa saja dianggap sukses di dunia dengan banyak pengikut, harta, atau gelar, tetapi jika timbangan amalnya ringan di akhirat, maka ia rugi. Konsep timbangan ini juga mengajarkan keadilan absolut: tidak ada suap, tidak ada nepotisme, tidak ada yang bisa memanipulasi hasil. Bagi mahasiswa, ayat ini mengajarkan untuk fokus pada substansi, bukan penampilan—lebih baik memiliki amal yang sedikit tetapi berkualitas (ikhlas, konsisten, bermanfaat) daripada banyak aktivitas tetapi hanya untuk pencitraan atau mencari pujian. Investasi terbaik adalah amal saleh yang akan memberatkan timbangan di hari kiamat."
+    },
+    {
+      "id": 40,
+      "themeId": 8,
+      "surah": "Yasin",
+      "ayah": 51,
+      "juz": 23,
+      "arabic": "وَنُفِخَ فِي الصُّورِ فَإِذَا هُم مِّنَ الْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ",
+      "translation": "Dan ditiuplah sangkakala, maka tiba-tiba mereka keluar dengan cepat dari kuburnya (menuju) kepada Tuhan mereka.",
+      "tafsir": "Ayat ini menggambarkan peristiwa kebangkitan dari kubur (ba'th ba'dal mawt) pada hari kiamat. Sangkakala (ash-shur) yang akan ditiup oleh malaikat Israfil adalah tanda dimulainya hari pembalasan. Menurut hadis, sangkakala akan ditiup dua kali: tiupan pertama (nafkhatul ula) akan mematikan semua makhluk yang masih hidup, dan tiupan kedua (nafkhatus saniyah) akan membangkitkan semua manusia dari kuburnya. Kata 'ajdath' (kubur) dan 'yansilun' (keluar dengan cepat) menggambarkan bagaimana manusia akan keluar dari kubur mereka dalam keadaan bingung dan ketakutan—mereka yang sudah ribuan tahun di dalam tanah tiba-tiba hidup kembali dan berlari menuju padang Mahsyar. Imam Ibnu Katsir menjelaskan bahwa mereka akan keluar dalam keadaan telanjang, tanpa alas kaki, dan tidak berkhitan, sebagaimana mereka dilahirkan pertama kali. Frasa 'ila rabbihim' (kepada Tuhan mereka) menunjukkan bahwa tidak ada tempat lari—semua akan dikumpulkan di hadapan Allah untuk dihisab. Bagi mahasiswa, ayat ini adalah pengingat tentang hari pertanggungjawaban yang pasti akan datang. Setiap detik kehidupan kita, setiap keputusan yang kita ambil, setiap kata yang kita ucapkan—semuanya akan dipertanggungjawabkan. Oleh karena itu, penting untuk hidup dengan kesadaran (mindfulness) bahwa suatu hari nanti kita akan berdiri sendirian di hadapan Allah, dan tidak ada yang bisa membantu kecuali amal saleh yang telah kita kerjakan."
+    },
+    {
+      "id": 41,
+      "themeId": 9,
+      "surah": "At-Talaq",
+      "ayah": 3,
+      "juz": 28,
+      "arabic": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ ۚ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ ۚ قَدْ جَعَلَ اللَّهُ لِكُلِّ شَيْءٍ قَدْرًا",
+      "translation": "Dan Dia memberinya rezeki dari arah yang tidak disangka-sangkanya. Dan barang siapa yang bertawakkal kepada Allah niscaya Allah akan mencukupkan (keperluan)nya. Sesungguhnya Allah melaksanakan urusan (yang dikehendaki)-Nya. Sesungguhnya Allah telah mengadakan ketentuan bagi tiap-tiap sesuatu.",
+      "tafsir": "Ayat ini adalah salah satu ayat paling populer tentang tawakal dan rezeki. Janji Allah 'wayarzuqhu min haytsu la yahtasib' (dan Dia memberinya rezeki dari arah yang tidak disangka-sangka) menunjukkan bahwa Allah memiliki cara-cara yang di luar perhitungan logika manusia dalam memberikan rezeki. Banyak kisah nyata yang membuktikan ini—orang yang dipecat dari pekerjaan malah mendapat peluang bisnis yang lebih menguntungkan, mahasiswa yang tidak diterima di kampus impian malah diterima di kampus lain dengan beasiswa penuh, atau seseorang yang sakit justru mendapat berkah berupa tobat dan perbaikan hidup. Kunci dari janji ini adalah syarat yang disebutkan: 'wa man yatawakkal 'alallahi fahuwa hasbuh' (barang siapa yang bertawakkal kepada Allah niscaya Allah akan mencukupkan keperluannya). Tawakal bukan berarti pasrah tanpa usaha, tetapi melakukan usaha maksimal kemudian menyerahkan hasilnya kepada Allah dengan penuh kepercayaan. Kata 'hasbuh' (mencukupkan) sangat kuat maknanya—Allah tidak hanya sekadar memberi, tetapi mencukupkan semua kebutuhan. Frasa 'innallaha balighu amrih' (sesungguhnya Allah melaksanakan urusan yang dikehendaki-Nya) mengingatkan bahwa rencana Allah pasti terlaksana, tidak ada yang bisa menghalangi kehendak-Nya. Bagi mahasiswa yang mungkin sedang khawatir tentang biaya kuliah, pekerjaan setelah lulus, atau masa depan, ayat ini mengajarkan untuk tetap berusaha maksimal (belajar dengan sungguh-sungguh, mencari beasiswa, melamar kerja) sambil bertawakkal bahwa Allah pasti akan memberikan jalan keluar yang terbaik, mungkin dari arah yang tidak pernah terbayangkan."
+    },
+    {
+      "id": 42,
+      "themeId": 9,
+      "surah": "Ali 'Imran",
+      "ayah": 159,
+      "juz": 4,
+      "arabic": "فَبِمَا رَحْمَةٍ مِّنَ اللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ الْقَلْبِ لَانفَضُّوا مِنْ حَوْلِكَ ۖ فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِي الْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ ۚ إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ",
+      "translation": "Maka disebabkan rahmat dari Allah-lah kamu berlaku lemah lembut terhadap mereka. Sekiranya kamu bersikap keras lagi berhati kasar, tentulah mereka menjauhkan diri dari sekelilingmu. Karena itu maafkanlah mereka, mohonkanlah ampun bagi mereka, dan bermusyawarahlah dengan mereka dalam urusan itu. Kemudian apabila kamu telah membulatkan tekad, maka bertawakkallah kepada Allah. Sesungguhnya Allah menyukai orang-orang yang bertawakkal kepada-Nya.",
+      "tafsir": "Ayat ini turun setelah peristiwa Perang Uhud di mana kaum muslimin mengalami kekalahan karena kesalahan sebagian pasukan pemanah yang meninggalkan pos mereka. Meski demikian, Allah memerintahkan Rasulullah untuk tetap bersikap lemah lembut ('linta lahum'), bukan keras dan kasar. Ayat ini kemudian memberikan prinsip-prinsip kepemimpinan yang sangat penting: pertama, 'fa'fu 'anhum' (maafkanlah mereka)—pemimpin yang baik harus bisa memaafkan kesalahan anak buahnya dan tidak mendendam. Kedua, 'wastaghfir lahum' (mohonkanlah ampun bagi mereka)—tidak cukup hanya memaafkan, tetapi juga mendoakan mereka. Ketiga, 'wa shawirhum fil amr' (bermusyawarahlah dengan mereka dalam urusan itu)—meski Rasulullah mendapat wahyu langsung dari Allah, beliau tetap diperintahkan untuk bermusyawarah, menunjukkan pentingnya partisipasi dan menghargai pendapat orang lain. Setelah ketiga prinsip itu, barulah disebutkan tawakal: 'fa idza 'azamta fatawakkal 'alallah' (apabila kamu telah membulatkan tekad, maka bertawakkallah kepada Allah). Ini menunjukkan urutan yang benar: bersikap baik, memaafkan, bermusyawarah, membulatkan tekad (membuat keputusan setelah pertimbangan matang), baru kemudian tawakal. Tawakal bukan berarti membuat keputusan sembarangan lalu pasrah, tetapi setelah melakukan semua proses dengan baik, menyerahkan hasilnya kepada Allah. Frasa terakhir 'innallaha yuhibbul mutawakkiliin' (sesungguhnya Allah menyukai orang-orang yang bertawakkal) menunjukkan bahwa tawakal adalah sifat yang dicintai Allah. Bagi mahasiswa yang aktif di organisasi atau kelak akan menjadi pemimpin, ayat ini mengajarkan gaya kepemimpinan yang humanis, demokratis, dan penuh kepercayaan kepada Allah—bukan otoriter atau sembarangan."
+    },
+    {
+      "id": 43,
+      "themeId": 9,
+      "surah": "At-Taubah",
+      "ayah": 51,
+      "juz": 10,
+      "arabic": "قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللَّهُ لَنَا هُوَ مَوْلَانَا ۚ وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
+      "translation": "Katakanlah: 'Sekali-kali tidak akan menimpa kami melainkan apa yang telah ditetapkan Allah bagi kami. Dialah Pelindung kami, dan hanya kepada Allah orang-orang yang beriman harus bertawakkal.'",
+      "tafsir": "Ayat ini mengajarkan tawakal dalam menghadapi takdir. Pernyataan 'lan yushibana illa ma kataballahu lana' (tidak akan menimpa kami melainkan apa yang telah ditetapkan Allah bagi kami) adalah fondasi ketenangan jiwa (thuma'ninah) seorang mukmin. Keyakinan ini bukan berarti fatalis atau pasrah tanpa usaha, tetapi ketenangan setelah berusaha maksimal bahwa apapun hasilnya adalah yang terbaik menurut Allah. Kata 'kataba' (menetapkan) menunjukkan bahwa segala sesuatu sudah tertulis dalam Lauhul Mahfuzh, namun ini tidak menafikan kehendak bebas manusia (free will) untuk berikhtiar. Dalam aqidah Ahlussunnah wal Jamaah, takdir dibagi menjadi dua: takdir mubram (yang pasti terjadi seperti kematian) dan takdir mu'allaq (yang bisa berubah dengan doa dan usaha). Frasa 'huwa mawlana' (Dialah Pelindung kami) menunjukkan bahwa Allah adalah sebaik-baik pelindung—lebih baik daripada security guard, asuransi, atau sistem keamanan apa pun. Perintah 'wa 'alallahi falyatawakkalil mu'minun' (dan hanya kepada Allah orang-orang beriman harus bertawakkal) menunjukkan bahwa tawakal adalah ciri khas orang beriman sejati. Mereka tidak tawakal kepada harta, jabatan, koneksi, atau kekuatan sendiri, tetapi hanya kepada Allah. Bagi mahasiswa yang mungkin sedang menghadapi ujian berat, skripsi yang sulit, atau kompetisi beasiswa, ayat ini mengajarkan untuk berusaha dengan maksimal (belajar sungguh-sungguh, mempersiapkan diri sebaik mungkin), lalu memasrahkan hasilnya kepada Allah dengan hati yang tenang. Apapun hasilnya—lulus atau tidak, diterima atau ditolak—adalah yang terbaik menurut Allah yang Maha Mengetahui."
+    },
+    {
+      "id": 44,
+      "themeId": 9,
+      "surah": "Ath-Thalaq",
+      "ayah": 2,
+      "juz": 28,
+      "arabic": "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا",
+      "translation": "Barang siapa bertakwa kepada Allah niscaya Dia akan mengadakan baginya jalan keluar.",
+      "tafsir": "Ayat pendek ini mengandung janji Allah yang sangat besar dan menghibur. Kata 'yattaqi' (bertakwa) mencakup seluruh aspek ketakwaan: melaksanakan perintah Allah, menjauhi larangan-Nya, menjaga lisan, hati, dan perbuatan. Janji Allah adalah 'yaj'al lahu makhraja' (akan mengadakan baginya jalan keluar). Kata 'makhraj' bersifat umum dan mencakup semua jenis kesulitan—ekonomi, kesehatan, hubungan, pekerjaan, atau masalah apa pun. Yang menarik, kata 'makhraj' dalam bahasa Arab menunjukkan jalan keluar yang tidak terduga atau tidak terlihat sebelumnya. Ibnu Abbas menafsirkan ayat ini: jalan keluar dari setiap kesempitan di dunia dan akhirat. Ayat ini tidak menjanjikan bahwa orang bertakwa tidak akan menghadapi masalah, tetapi menjanjikan bahwa Allah pasti akan memberikan jalan keluar. Jalan keluar itu mungkin berupa solusi langsung, mungkin berupa kesabaran untuk melewati masalah, mungkin berupa hikmah dari masalah tersebut, atau mungkin berupa ganti rugi yang lebih baik di masa depan. Bagi mahasiswa yang sedang menghadapi masalah—entah masalah keuangan, akademik, keluarga, atau pertemanan—ayat ini mengajarkan bahwa kunci solusi adalah meningkatkan ketakwaan: shalat tepat waktu, menjaga dari hal haram, berbuat baik kepada orang tua, jujur dalam setiap urusan. Dengan takwa, Allah akan membukakan pintu-pintu solusi yang tidak pernah terbayangkan sebelumnya."
+    },
+    {
+      "id": 45,
+      "themeId": 9,
+      "surah": "Al-Anfal",
+      "ayah": 49,
+      "juz": 10,
+      "arabic": "إِذْ يَقُولُ الْمُنَافِقُونَ وَالَّذِينَ فِي قُلُوبِهِم مَّرَضٌ غَرَّ هَٰؤُلَاءِ دِينُهُمْ ۗ وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَإِنَّ اللَّهَ عَزِيزٌ حَكِيمٌ",
+      "translation": "(Ingatlah), ketika orang-orang munafik dan orang-orang yang ada penyakit di dalam hatinya berkata: 'Agama mereka telah menipu mereka.' Barang siapa yang bertawakkal kepada Allah, maka sesungguhnya Allah Maha Perkasa lagi Maha Bijaksana.",
+      "tafsir": "Ayat ini turun dalam konteks Perang Badar di mana kaum muslimin hanya berjumlah 313 orang menghadapi pasukan Quraisy yang berjumlah sekitar 1000 orang. Orang-orang munafik dan yang sakit hatinya mengejek: 'gharra ha'ula'i dinuhum' (agama mereka telah menipu mereka), maksudnya adalah kaum muslimin terlalu percaya diri hanya karena agama mereka, padahal secara kalkulasi militer mereka pasti kalah. Namun Allah membantah persangkaan mereka dengan menyatakan: 'wa man yatawakkal 'alallahi fa innallaha 'aziizun hakiim' (barang siapa yang bertawakkal kepada Allah, maka sesungguhnya Allah Maha Perkasa lagi Maha Bijaksana). Sifat 'Aziiz (Maha Perkasa) menunjukkan bahwa Allah memiliki kekuatan yang tidak terbatas untuk menolong hamba-Nya, dan sifat Hakiim (Maha Bijaksana) menunjukkan bahwa pertolongan Allah datang dengan cara yang paling tepat dan pada waktu yang paling baik. Hasilnya, kaum muslimin memenangkan Perang Badar secara gemilang—bukti nyata bahwa tawakal yang benar disertai dengan pertolongan Allah. Ayat ini mengajarkan bahwa tawakal bukan ilusi atau pelarian dari realitas, tetapi kekuatan spiritual yang nyata yang bisa mengubah hasil yang secara logika mustahil menjadi mungkin. Bagi mahasiswa, ayat ini relevan ketika menghadapi situasi yang terlihat mustahil—misalnya kompetisi dengan pesaing yang lebih kuat, ujian yang sangat sulit, atau target yang terlihat tidak realistis. Dengan persiapan maksimal dan tawakal kepada Allah Yang Maha Perkasa dan Maha Bijaksana, hasil yang terlihat mustahil bisa menjadi kenyataan."
+    },
+    {
+      "id": 46,
+      "themeId": 10,
+      "surah": "Al-Baqarah",
+      "ayah": 155,
+      "juz": 2,
+      "arabic": "وَلَنَبْلُوَنَّكُم بِشَيْءٍ مِّنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنفُسِ وَالثَّمَرَاتِ ۗ وَبَشِّرِ الصَّابِرِينَ",
+      "translation": "Dan sungguh akan Kami berikan cobaan kepadamu, dengan sedikit ketakutan, kelaparan, kekurangan harta, jiwa dan buah-buahan. Dan berikanlah berita gembira kepada orang-orang yang sabar.",
+      "tafsir": "Ayat ini adalah fondasi pemahaman tentang ujian dan cobaan dalam Islam. Kata 'lanabluwannakum' (sungguh akan Kami berikan cobaan) menggunakan bentuk ta'kid (penegasan) yang menunjukkan kepastian—tidak ada manusia yang luput dari ujian. Kata 'nablu' (menguji) menunjukkan bahwa cobaan adalah ujian, bukan hukuman. Allah menyebutkan lima jenis cobaan: (1) 'al-khawf' (ketakutan)—bisa berupa ancaman keamanan, kecemasan akan masa depan, atau ketakutan psikologis; (2) 'al-ju'' (kelaparan)—kesulitan ekonomi atau krisis pangan; (3) 'naqs minal amwal' (kekurangan harta)—kerugian finansial, kehilangan pekerjaan, atau bangkrut; (4) 'wal anfus' (jiwa)—kematian orang yang dicintai, penyakit, atau kecelakaan; (5) 'wats tsamarat' (buah-buahan)—kegagalan usaha, hasil yang tidak sesuai harapan, atau kerja keras yang sia-sia. Kata 'bisyay'in min' (dengan sedikit) menunjukkan rahmat Allah—Dia tidak menguji melebihi kemampuan hamba-Nya. Yang indah adalah perintah di akhir ayat: 'wa bashshiris shabirin' (dan berikanlah berita gembira kepada orang-orang yang sabar). Ini menunjukkan bahwa cobaan bukan akhir dari segalanya, tetapi justru peluang untuk mendapat berita gembira—yaitu pahala yang besar, pengampunan dosa, dan peningkatan derajat. Bagi mahasiswa yang mungkin sedang menghadapi berbagai kesulitan—nilai yang jelek, keuangan yang sulit, putus dengan pacar, sakit, atau kehilangan orang tua—ayat ini mengajarkan bahwa semua itu adalah ujian yang pasti akan berlalu, dan kunci untuk melewatinya adalah sabar dengan tetap beribadah, tidak mengeluh berlebihan, dan percaya bahwa Allah sedang melatih kita untuk menjadi pribadi yang lebih kuat."
+    },
+    {
+      "id": 47,
+      "themeId": 10,
+      "surah": "Al-Baqarah",
+      "ayah": 286,
+      "juz": 3,
+      "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ ۖ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا ۚ أَنتَ مَوْلَانَا فَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
+      "translation": "Allah tidak membebani seseorang melainkan sesuai dengan kesanggupannya. Ia mendapat pahala (dari kebajikan) yang diusahakannya dan ia mendapat siksa (dari kejahatan) yang dikerjakannya. (Mereka berdoa): 'Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami tersalah. Ya Tuhan kami, janganlah Engkau bebankan kepada kami beban yang berat sebagaimana Engkau bebankan kepada orang-orang sebelum kami. Ya Tuhan kami, janganlah Engkau pikulkan kepada kami apa yang tak sanggup kami memikulnya. Beri maaflah kami; ampunilah kami; dan rahmatilah kami. Engkaulah Penolong kami, maka tolonglah kami terhadap kaum yang kafir.'",
+      "tafsir": "Ayat penutup surah Al-Baqarah ini adalah salah satu ayat yang paling agung dan komprehensif dalam Al-Qur'an. Prinsip pertama yang diajarkan adalah 'la yukallifullahu nafsan illa wus'aha' (Allah tidak membebani seseorang melainkan sesuai dengan kesanggupannya). Ini adalah jaminan Allah yang sangat menghibur—tidak akan ada cobaan yang di luar kemampuan kita untuk melewatinya. Kata 'wus'' berarti kapasitas maksimal yang bisa dicapai—artinya, cobaan yang Allah berikan memang berat tetapi masih dalam batas kemampuan kita, bahkan mungkin sedikit memaksa kita keluar dari zona nyaman untuk bertumbuh. Prinsip kedua adalah 'laha ma kasabat wa 'alayha maktasabat' (ia mendapat pahala dari kebajikan yang diusahakannya dan ia mendapat siksa dari kejahatan yang dikerjakannya)—ini adalah prinsip keadilan dan tanggung jawab individual. Kemudian ayat ini mengajarkan tiga doa penting: (1) memohon ampun atas kelupaan dan kesalahan yang tidak disengaja; (2) memohon agar tidak diberi beban berat seperti umat terdahulu (misalnya Bani Israil yang dibebani hukum yang sangat ketat); (3) memohon agar tidak diberi beban yang tidak sanggup dipikul. Akhir ayat adalah tiga permohonan besar: 'wa'fu 'anna' (maafkan kami), 'waghfir lana' (ampunilah kami), 'warhamna' (rahmatilah kami). Menurut ulama, 'afuw adalah menghapus dosa, 'maghfirah' adalah menutup dan melindungi dari akibat dosa, sedangkan 'rahmah' adalah memberikan karunia dan kebaikan. Rasulullah SAW bersabda bahwa setiap kali ayat ini dibaca dan seseorang mengucapkan amin pada doa-doanya, Allah mengabulkannya. Bagi mahasiswa yang sedang menghadapi tekanan akademik, tuntutan keluarga, atau ekspektasi sosial yang tinggi, ayat ini mengajarkan bahwa Allah tidak akan memberikan beban yang tidak bisa kita pikul—jika kita merasa terbebani, itu tandanya kita masih mampu, dan kita harus terus berdoa memohon keringanan dan pertolongan Allah."
+    },
+    {
+      "id": 48,
+      "themeId": 10,
+      "surah": "Al-Ankabut",
+      "ayah": 2,
+      "juz": 20,
+      "arabic": "أَحَسِبَ النَّاسُ أَن يُتْرَكُوا أَن يَقُولُوا آمَنَّا وَهُمْ لَا يُفْتَنُونَ",
+      "translation": "Apakah manusia itu mengira bahwa mereka dibiarkan (saja) mengatakan: 'Kami telah beriman', sedang mereka tidak diuji lagi?",
+      "tafsir": "Ayat ini membuka surah Al-Ankabut dengan pertanyaan retoris yang menghentak. Kata 'ahasiba' (apakah mengira) menunjukkan sindiran terhadap pemikiran naif bahwa iman cukup dengan ucapan saja tanpa ujian. Kata 'yutrakuu' (dibiarkan saja) menunjukkan bahwa mustahil seseorang yang mengaku beriman tidak diuji—ujian adalah sunnatullah yang pasti berlaku. Kata 'yuftanun' (diuji) berasal dari kata 'fitnah' yang secara literal berarti membakar emas untuk memisahkan emas murni dari kotoran. Analoginya, ujian adalah proses untuk memisahkan orang yang benar-benar beriman dari yang hanya ikut-ikutan atau munafik. Ujian bisa berupa godaan kemaksiatan (seperti ajakan untuk berbuat dosa), kesulitan hidup (seperti kemiskinan atau penyakit), atau tekanan sosial (seperti ejekan atau pengucilan karena memegang prinsip agama). Menurut Ibnu Katsir, ayat ini turun ketika sebagian kaum muslimin di Mekkah mengalami siksaan dan tekanan dari kaum musyrikin, dan mereka bertanya mengapa mereka harus mengalami ini padahal mereka sudah beriman. Allah menjawab: itulah ujian untuk membuktikan kebenaran iman kalian. Bagi mahasiswa yang mungkin sedang menghadapi ujian keimanan—misalnya diejek karena menutup aurat, diolok-olok karena tidak ikut maksiat, atau dikucilkan karena memegang prinsip—ayat ini mengajarkan bahwa ujian adalah tanda bahwa iman kita sedang diuji dan dimurnikan. Justru orang yang tidak pernah diuji patut khawatir, karena bisa jadi imannya belum dianggap oleh Allah."
+    },
+    {
+      "id": 49,
+      "themeId": 10,
+      "surah": "Asy-Syarh",
+      "ayah": 5,
+      "juz": 30,
+      "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "translation": "Karena sesungguhnya sesudah kesulitan itu ada kemudahan.",
+      "tafsir": "Ayat pendek ini (dan pengulangan di ayat 6) adalah salah satu ayat yang paling memberikan harapan dan optimisme dalam Al-Qur'an. Struktur bahasa Arabnya sangat signifikan: kata 'al-'usr' (kesulitan) menggunakan 'alif lam' yang menunjukkan sesuatu yang spesifik dan terbatas, sedangkan kata 'yusran' (kemudahan) tidak menggunakan 'alif lam', menunjukkan sesuatu yang umum dan tidak terbatas. Para ulama menyimpulkan: satu kesulitan akan diikuti oleh dua kemudahan (karena ayat ini diulang dua kali). Kata 'ma'a' (bersama) sangat penting—bukan 'ba'da' (setelah) tetapi 'ma'a' (bersama), artinya kemudahan itu sudah ada bersamaan dengan kesulitan, meskipun kita belum melihatnya. Ibnu Qayyim menjelaskan bahwa dalam setiap kesulitan selalu ada benih kemudahan: orang yang sakit mendapat pahala, orang yang kesusahan finansial belajar bersyukur dengan yang sedikit, orang yang mengalami kegagalan mendapat pelajaran berharga. Rasulullah SAW bersabda: 'Ketahuilah bahwa kemenangan itu datang bersama kesabaran, kelapangan datang bersama kesulitan, dan sesudah kesulitan pasti ada kemudahan.' Ayat ini juga diulang dua kali dalam surah yang sama untuk menegaskan bahwa ini adalah janji Allah yang pasti—bukan sekadar penghiburan. Bagi mahasiswa yang sedang menghadapi periode sulit—entah skripsi yang mentok, nilai yang jelek, keuangan yang sempit, atau masalah personal—ayat ini mengajarkan untuk tidak putus asa karena kemudahan pasti akan datang, bahkan mungkin sudah ada di dalam kesulitan itu sendiri dalam bentuk pelajaran, kekuatan mental, atau jaringan dukungan yang baru ditemukan."
+    },
+    {
+      "id": 50,
+      "themeId": 10,
+      "surah": "Al-Anfal",
+      "ayah": 28,
+      "juz": 9,
+      "arabic": "وَاعْلَمُوا أَنَّمَا أَمْوَالُكُمْ وَأَوْلَادُكُمْ فِتْنَةٌ وَأَنَّ اللَّهَ عِندَهُ أَجْرٌ عَظِيمٌ",
+      "translation": "Dan ketahuilah, bahwa hartamu dan anak-anakmu itu hanyalah sebagai cobaan dan sesungguhnya di sisi Allah-lah pahala yang besar.",
+      "tafsir": "Ayat ini mengajarkan konsep yang sangat penting namun sering dilupakan: bahwa harta dan anak—dua hal yang paling dicintai manusia—sebenarnya adalah ujian (fitnah). Kata 'fitnah' di sini bukan berarti harta dan anak itu buruk, tetapi mereka adalah alat ujian untuk melihat apakah kita akan taat kepada Allah atau justru durhaka karena mereka. Ujian dari harta bisa berupa: apakah kita mendapatkannya dengan cara halal atau haram, apakah kita mengeluarkan zakat dan sedekah atau kikir, apakah kita menggunakannya untuk hal yang baik atau sia-sia, dan apakah harta membuat kita lupa kepada Allah atau justru lebih bersyukur. Ujian dari anak bisa berupa: apakah kita mendidik mereka dengan baik atau melalaikan pendidikan agama mereka, apakah kita memberikan nafkah halal atau haram, apakah kita menjadikan mereka alasan untuk berbuat baik atau justru alasan untuk berbuat maksiat (seperti korupsi demi masa depan anak), dan apakah kehadiran anak membuat kita lebih dekat atau justru lalai dari Allah. Frasa 'wa annallaha 'indahu ajrun 'azhiim' (dan sesungguhnya di sisi Allah-lah pahala yang besar) adalah pengingat bahwa ada sesuatu yang jauh lebih berharga dari harta dan anak, yaitu pahala dan ridha Allah. Banyak orang rela mengorbankan agama demi harta dan anak, padahal harta dan anak hanyalah sementara sedangkan pahala Allah kekal abadi. Bagi mahasiswa, ayat ini mengajarkan untuk berhati-hati dengan prioritas hidup: jangan sampai mengejar kesuksesan material (harta) atau status sosial (keluarga di masa depan) dengan mengorbankan nilai-nilai agama. Sukses sejati adalah mendapat ridha Allah, dan harta serta keluarga yang baik adalah bonus yang menyertai kesuksesan tersebut."
     }
   ]
 }
