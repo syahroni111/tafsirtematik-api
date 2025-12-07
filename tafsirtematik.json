@@ -1,0 +1,61 @@
+{
+  "themes": [
+    {
+      "id": 1,
+      "name": "Rezeki",
+      "description": "Ayat-ayat yang membahas tentang rezeki, keberkahan, dan kepercayaan kepada Allah sebagai pemberi rezeki."
+    },
+    {
+      "id": 2,
+      "name": "Sabar",
+      "description": "Ayat-ayat yang mengajarkan kesabaran dalam menghadapi ujian dan kesulitan hidup."
+    },
+    {
+      "id": 3,
+      "name": "Akhlak",
+      "description": "Ayat-ayat yang menuntun manusia untuk berakhlak mulia dan menjauhi perbuatan tercela."
+    }
+  ],
+  "verses": [
+    {
+      "id": 1,
+      "themeId": 1,
+      "surah": "Al-Baqarah",
+      "ayah": 172,
+      "juz": 2,
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَاشْكُرُوا لِلَّهِ",
+      "translation": "Wahai orang-orang yang beriman! Makanlah dari rezeki yang baik yang Kami berikan kepadamu, dan bersyukurlah kepada Allah.",
+      "tafsir": "Allah memerintahkan orang beriman agar hanya memakan yang halal dan baik serta bersyukur atas karunia rezeki tersebut."
+    },
+    {
+      "id": 2,
+      "themeId": 1,
+      "surah": "Hud",
+      "ayah": 6,
+      "juz": 11,
+      "arabic": "وَمَا مِن دَابَّةٍ فِي الْأَرْضِ إِلَّا عَلَى اللَّهِ رِزْقُهَا",
+      "translation": "Dan tidak ada satu makhluk melata pun di bumi melainkan Allah-lah yang memberi rezekinya.",
+      "tafsir": "Setiap makhluk sudah dijamin rezekinya oleh Allah sesuai dengan ketetapan-Nya."
+    },
+    {
+      "id": 3,
+      "themeId": 2,
+      "surah": "Al-Baqarah",
+      "ayah": 153,
+      "juz": 2,
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+      "translation": "Wahai orang-orang yang beriman! Mohonlah pertolongan dengan sabar dan shalat.",
+      "tafsir": "Kesabaran dan shalat menjadi dua kekuatan utama dalam menghadapi cobaan hidup."
+    },
+    {
+      "id": 4,
+      "themeId": 3,
+      "surah": "Al-Qalam",
+      "ayah": 4,
+      "juz": 29,
+      "arabic": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ",
+      "translation": "Dan sesungguhnya engkau (Muhammad) benar-benar berbudi pekerti yang agung.",
+      "tafsir": "Ayat ini menegaskan kemuliaan akhlak Nabi Muhammad sebagai teladan bagi umat manusia."
+    }
+  ]
+}
